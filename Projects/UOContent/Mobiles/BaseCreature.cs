@@ -2765,7 +2765,7 @@ namespace Server.Mobiles
 
         public override void OnMovement(Mobile m, Point3D oldLocation)
         {
-            if (AcquireOnApproach && !Controlled && !Summoned && FightMode != FightMode.Aggressor)
+            if (AcquireOnApproach && !Controlled && !Summoned && !BardPacified && FightMode != FightMode.Aggressor)
             {
                 if (InRange(m.Location, AcquireOnApproachRange) && !InRange(oldLocation, AcquireOnApproachRange) &&
                     CanBeHarmful(m) && IsEnemy(m))
@@ -2780,13 +2780,11 @@ namespace Server.Mobiles
                 ForceReacquire();
             }
 
-            var speechType = SpeechType;
-
-            speechType?.OnMovement(this, m, oldLocation);
+            SpeechType?.OnMovement(this, m, oldLocation);
 
             /* Begin notice sound */
             if ((!m.Hidden || m.AccessLevel == AccessLevel.Player) && m.Player && FightMode != FightMode.Aggressor &&
-                FightMode != FightMode.None && Combatant == null && !Controlled && !Summoned &&
+                FightMode != FightMode.None && Combatant == null && !Controlled && !Summoned && !BardPacified &&
                 InRange(m.Location, 18) && !InRange(oldLocation, 18))
             {
                 if (Body.IsMonster)
@@ -4870,25 +4868,28 @@ namespace Server.Mobiles
 
         public virtual void DropBackpack()
         {
-            if (Backpack?.Items.Count > 0)
+            var backpack = Backpack;
+            if (!(backpack?.Items.Count > 0))
             {
-                var b = new CreatureBackpack(Name);
+                return;
+            }
 
-                var list = new List<Item>(Backpack.Items);
-                foreach (var item in list)
-                {
-                    b.DropItem(item);
-                }
+            var b = new CreatureBackpack(Name);
+            using var queue = backpack.EnumerateItems();
 
-                var house = BaseHouse.FindHouseAt(this);
-                if (house != null)
-                {
-                    b.MoveToWorld(house.BanLocation, house.Map);
-                }
-                else
-                {
-                    b.MoveToWorld(Location, Map);
-                }
+            while (queue.Count > 0)
+            {
+                b.DropItem(queue.Dequeue());
+            }
+
+            var house = BaseHouse.FindHouseAt(this);
+            if (house != null)
+            {
+                b.MoveToWorld(house.BanLocation, house.Map);
+            }
+            else
+            {
+                b.MoveToWorld(Location, Map);
             }
         }
 

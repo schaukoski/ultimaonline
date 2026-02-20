@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "Container",
     "packets":  [
                     {
@@ -10,7 +10,6 @@
                         "size":  "Varies",
                         "variants":  [
                                          {
-                                             "version":  "pre-HighSeas",
                                              "name":  "Classic",
                                              "size":  7,
                                              "fields":  [
@@ -36,7 +35,6 @@
                                                         ]
                                          },
                                          {
-                                             "version":  "HighSeas+",
                                              "name":  "High Seas Extended",
                                              "condition":  "Client version \u003e= 7.0.9.0 (HighSeas)",
                                              "size":  9,
@@ -71,7 +69,9 @@
                                          }
                                      ],
                         "clientVersion":  {
-                                              "feature":  "HighSeas adds containerType field"
+                                              "classic":  {},
+                                              "enhanced":  {},
+                                              "notes":  "HighSeas (7.0.9.0+) adds containerType field"
                                           },
                         "source":  {
                                        "file":  "Projects/Server/Network/Packets/OutgoingContainerPackets.cs",
@@ -87,7 +87,6 @@
                         "size":  "Varies",
                         "variants":  [
                                          {
-                                             "version":  "pre-6017",
                                              "name":  "Classic",
                                              "size":  20,
                                              "fields":  [
@@ -150,7 +149,6 @@
                                                         ]
                                          },
                                          {
-                                             "version":  "6017+",
                                              "name":  "Container Grid Lines",
                                              "condition":  "Client version \u003e= 6.0.1.7 (ContainerGridLines)",
                                              "size":  21,
@@ -221,7 +219,9 @@
                                          }
                                      ],
                         "clientVersion":  {
-                                              "feature":  "ContainerGridLines adds gridLocation byte"
+                                              "classic":  {},
+                                              "enhanced":  {},
+                                              "notes":  "ContainerGridLines (6.0.1.7+) adds gridLocation byte"
                                           },
                         "source":  {
                                        "file":  "Projects/Server/Network/Packets/OutgoingContainerPackets.cs",
@@ -238,7 +238,6 @@
                         "tags":  ["Spellbook", "Corpse"],
                         "variants":  [
                                          {
-                                             "version":  "pre-6017",
                                              "name":  "Classic Format",
                                              "condition":  "Client version \u003c 6.0.1.7",
                                              "size":  "5 + (itemCount x 19)",
@@ -324,7 +323,6 @@
                                                         ]
                                          },
                                          {
-                                             "version":  "6017+ (ContainerGridLines)",
                                              "name":  "Grid Location Format",
                                              "condition":  "Client version \u003e= 6.0.1.7 (ContainerGridLines)",
                                              "size":  "5 + (itemCount x 20)",
@@ -429,7 +427,9 @@
                                         }
                                     ],
                         "clientVersion":  {
-                                              "feature":  "ContainerGridLines (6.0.1.7+) adds gridLocation byte per item"
+                                              "classic":  {},
+                                              "enhanced":  {},
+                                              "notes":  "ContainerGridLines (6.0.1.7+) adds gridLocation byte per item"
                                           },
                         "notes":  "Also used for corpse contents. Corpses are special containers that display equipped items on a body graphic. Use with 0x89 Corpse Equipment for full corpse display.",
                         "source":  {
@@ -508,8 +508,11 @@
                                         }
                                     ],
                         "clientVersion":  {
-                                              "min":  "5.0.0a",
-                                              "feature":  "NewSpellbook (Core.AOS \u0026\u0026 ns.NewSpellbook)"
+                                              "classic":  {
+                                                  "min":  "5.0.0a"
+                                              },
+                                              "enhanced":  {},
+                                              "notes":  "NewSpellbook feature (Core.AOS)"
                                           },
                         "notes":  "Used when Core.AOS \u0026\u0026 ns.NewSpellbook. Otherwise, old 0x3C format is used with spells as pseudo-items.",
                         "source":  {
@@ -575,7 +578,11 @@
                                         }
                                     ],
                         "clientVersion":  {
-                                              "feature":  "HighSeas"
+                                              "classic":  {
+                                                  "min":  "7.0.9.0"
+                                              },
+                                              "enhanced":  {},
+                                              "notes":  "HighSeas expansion feature"
                                           },
                         "notes":  "Uses PacketContainerBuilder for efficient dynamic growth. Commonly used by boat system to batch all visible entities on deck. Minimum packet length is 5 bytes (header only).",
                         "source":  {

@@ -47,10 +47,10 @@ public class BookPacketTests
 
         var expected = new BookHeader(m, book).Compile();
 
-        var ns = PacketTestUtilities.CreateTestNetState();
+        using var ns = PacketTestUtilities.CreateTestNetState();
         ns.SendBookCover(m, book);
 
-        var result = ns.SendPipe.Reader.AvailableToRead();
+        var result = ns.SendBuffer.GetReadSpan();
         AssertThat.Equal(result, expected);
     }
 
@@ -84,10 +84,10 @@ public class BookPacketTests
 
         var expected = new BookPageDetails(book).Compile();
 
-        var ns = PacketTestUtilities.CreateTestNetState();
+        using var ns = PacketTestUtilities.CreateTestNetState();
         ns.SendBookContent(book);
 
-        var result = ns.SendPipe.Reader.AvailableToRead();
+        var result = ns.SendBuffer.GetReadSpan();
         AssertThat.Equal(result, expected);
     }
 }

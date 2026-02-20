@@ -1,4 +1,4 @@
-﻿{
+{
     "category":  "Context Menu",
     "packets":  [
                     {
@@ -12,7 +12,6 @@
                         "variants":  [
                                          {
                                              "name":  "Old Format",
-                                             "version":  "0x01",
                                              "condition":  "command == 0x01 (pre-NewHaven)",
                                              "fields":  [
                                                             {
@@ -115,7 +114,6 @@
                                          },
                                          {
                                              "name":  "New Format",
-                                             "version":  "0x02",
                                              "condition":  "command == 0x02 (NewHaven+)",
                                              "fields":  [
                                                             {
@@ -201,7 +199,9 @@
                                         }
                                     ],
                         "clientVersion":  {
-                                              "feature":  "NewHaven clients (6.0.0.0+) use command 0x02"
+                                              "classic":  {},
+                                              "enhanced":  {},
+                                              "notes":  "NewHaven clients (6.0.0.0+) use command 0x02"
                                           },
                         "source":  {
                                        "file":  "Projects/UOContent/Context Menus/ContextMenuSystem.cs",

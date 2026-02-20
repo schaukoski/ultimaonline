@@ -293,6 +293,7 @@ public partial class Mobile : IHued, IComparable<Mobile>, ISpawnable, IObjectPro
 
     private int m_HueMod = -1;
     private int m_Hunger;
+    private int _thirst;
 
     private bool m_InDeltaQueue;
     private int m_Kills;
@@ -513,7 +514,20 @@ public partial class Mobile : IHued, IComparable<Mobile>, ISpawnable, IObjectPro
     }
 
     [CommandProperty(AccessLevel.GameMaster)]
-    public int Thirst { get; set; }
+    public int Thirst
+    {
+        get => _thirst;
+        set
+        {
+            var oldValue = _thirst;
+
+            if (oldValue != value)
+            {
+                _thirst = value;
+                OnThirstChanged(oldValue);
+            }
+        }
+    }
 
     [CommandProperty(AccessLevel.GameMaster)]
     public int BAC { get; set; }
@@ -1231,12 +1245,7 @@ public partial class Mobile : IHued, IComparable<Mobile>, ISpawnable, IObjectPro
     {
         get
         {
-            if (m_NetState?.Connection == null)
-            {
-                m_NetState = null;
-            }
-
-            return m_NetState;
+            return m_NetState is { IsConnected: true } ? m_NetState : null;
         }
         set
         {
@@ -3722,6 +3731,14 @@ public partial class Mobile : IHued, IComparable<Mobile>, ISpawnable, IObjectPro
     ///     <seealso cref="Hunger" />
     /// </summary>
     public virtual void OnHungerChanged(int oldValue)
+    {
+    }
+
+    /// <summary>
+    ///     Overridable. Virtual event invoked after the <see cref="Thirst" /> property has changed.
+    ///     <seealso cref="Thirst" />
+    /// </summary>
+    public virtual void OnThirstChanged(int oldValue)
     {
     }
 
@@ -7470,6 +7487,12 @@ public partial class Mobile : IHued, IComparable<Mobile>, ISpawnable, IObjectPro
 
     public virtual bool OpenTrade(Mobile from, Item offer = null)
     {
+        if (!ServerFeatureFlags.PlayerTrading)
+        {
+            from.SendMessage(0x22, "Player trading is temporarily disabled.");
+            return false;
+        }
+
         if (!from.Player || !Player || !from.Alive || !Alive)
         {
             return false;
@@ -8203,6 +8226,16 @@ public partial class Mobile : IHued, IComparable<Mobile>, ISpawnable, IObjectPro
         if (target == this)
         {
             return true;
+        }
+
+        if (!ServerFeatureFlags.PvPCombat && Player && target.Player)
+        {
+            if (message)
+            {
+                SendLocalizedMessage(1001018); // You can not perform negative acts on your target.
+            }
+
+            return false;
         }
 
         // TODO: Pets

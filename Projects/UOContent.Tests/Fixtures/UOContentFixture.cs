@@ -2,6 +2,7 @@ using System;
 using System.Reflection;
 using Server.Items;
 using Server.Misc;
+using Server.Tests.Maps;
 using Xunit;
 
 namespace Server.Tests;
@@ -24,6 +25,9 @@ public class UOContentFixture : ICollectionFixture<UOContentFixture>, IDisposabl
 
         // Load Skills
         SkillsInfo.Configure();
+
+        // Configure networking (initializes RingSocketManager for tests)
+        Server.Network.NetState.Configure();
 
         // Configure / Initialize
         TestMapDefinitions.ConfigureTestMapDefinitions();
