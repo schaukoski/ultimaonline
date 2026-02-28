@@ -26,7 +26,13 @@ public static class ZuluHelper
 
     private static void OnTesteCommand(CommandEventArgs e)
     {
+        Serial se = Serial.Parse("39354");
+        Mobile m = World.FindMobile(se);
+        m.Delete();
+        // 39354
 
-      
+
+        
+
     }
 }

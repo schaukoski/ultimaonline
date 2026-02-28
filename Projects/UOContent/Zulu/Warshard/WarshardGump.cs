@@ -1,3 +1,4 @@
+using ModernUO.Serialization;
 using Server.Gumps;
 using Server.Items;
 using Server.Network;
@@ -6,6 +7,30 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Server;
+
+[SerializationGenerator(0)]
+public partial class WarshardItem : Item
+{
+    [Constructible]
+    public WarshardItem() : base(0x0E3B)
+    {
+        Name = "Warshard Book";
+        Hue = 1153;
+        Weight = 1.0;
+    }
+
+    public override void OnDoubleClick(Mobile from)
+    {
+        base.OnDoubleClick(from);
+        if (!from.InRange(GetWorldLocation(), 2))
+        {
+            from.SendLocalizedMessage(500446); // That is too far away.
+            return;
+        }
+
+        from.SendGump(new WarshardGump(from, 0));
+    }
+}
 
 public class WarshardGump : ZuluGump
 {
@@ -17,13 +42,13 @@ public class WarshardGump : ZuluGump
 
         switch (info.ButtonID)
         {
-            case 1: ZuluClassManager.SetClass(sender.Mobile, new MageClass(), info.Switches[0]); break;
-            case 2: ZuluClassManager.SetClass(sender.Mobile, new WarriorClass(), info.Switches[0]); break;
-            case 3: ZuluClassManager.SetClass(sender.Mobile, new RangerClass(), info.Switches[0]); break;
-            case 4: ZuluClassManager.SetClass(sender.Mobile, new BardClass(), info.Switches[0]); break;
-            case 5: ZuluClassManager.SetClass(sender.Mobile, new CrafterClass(), info.Switches[0]); break;
-            case 6: ZuluClassManager.SetClass(sender.Mobile, new ThiefClass(), info.Switches[0]); break;
-            case 7: ZuluClassManager.SetClass(sender.Mobile, new NecromancerClass(), info.Switches[0]); break;
+            case 1: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Mage, info.Switches[0]); break;
+            case 2: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Warrior, info.Switches[0]); break;
+            case 3: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Ranger, info.Switches[0]); break;
+            case 4: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Bard, info.Switches[0]); break;
+            case 5: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Crafter, info.Switches[0]); break;
+            case 6: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Thief, info.Switches[0]); break;
+            case 7: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Necromancer, info.Switches[0]); break;
 
             default:
                 break;
@@ -57,7 +82,7 @@ public class WarshardGump : ZuluGump
 
 
         AddLabelHtml(startPageX + 12, startPageY + 40, 200, 40, "Your Class:", "#F5CD3B", 4, false);
-        AddLabelHtml(startPageX + 92, startPageY + 40, 200, 40, m.ActiveZuluClass.Name, "#FFFFFF", 4, false);
+        AddLabelHtml(startPageX + 92, startPageY + 40, 200, 40, m.ActiveZuluClass.ToString(), "#FFFFFF", 4, false);
 
         AddLabelHtml(startPageX + 180, startPageY + 40, 200, 40, "Level:", "#F5CD3B", 4, false);
         AddLabelHtml(startPageX + 230, startPageY + 40, 200, 40, m.ActiveZuluClassLevel.ToString(), "#FFFFFF", 4, false);
