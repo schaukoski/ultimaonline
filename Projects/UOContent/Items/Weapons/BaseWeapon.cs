@@ -912,12 +912,17 @@ public abstract partial class BaseWeapon
                 }
             }
 
-            attacker.RecalculateZuluModifiers();
-            defender.RecalculateZuluModifiers();
+            #region ##zulu mod
+            // attacker.RecalculateZuluModifiers();
+            // defender.RecalculateZuluModifiers();
+            #endregion
 
             if (CheckHit(attacker, defender))
             {
-                double evasion = defender.ActiveZuluModifiers[(int)ZuluMod.Evasion];
+                #region ##zulu mod
+                // double evasion = defender.ActiveZuluModifiers[(int)ZuluMod.Evasion];
+                double evasion = defender.GetZuluModifier(ZuluMod.Evasion);
+                #endregion
                 if (evasion != 0 && Utility.RandomDouble() < (evasion/100))
                 {
                     
@@ -1056,6 +1061,14 @@ public abstract partial class BaseWeapon
         {
             return false;
         }
+
+        #region ##zulu mod - class equip restrictions
+        if (!CanEquipZulu(from))
+        {
+            from.SendMessage("Your class forbids you from wielding this item.");
+            return false;
+        }
+        #endregion
 
         if (from.Dex < DexRequirement)
         {

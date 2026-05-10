@@ -6611,6 +6611,12 @@ public partial class Mobile : IHued, IComparable<Mobile>, ISpawnable, IObjectPro
     /// </summary>
     public virtual void OnItemAdded(Item item)
     {
+        #region ##zulu mod
+        if (item.IsEquippableLayer)
+        {
+            isZuluDirty = true;
+        }
+        #endregion
     }
 
     /// <summary>
@@ -6621,6 +6627,12 @@ public partial class Mobile : IHued, IComparable<Mobile>, ISpawnable, IObjectPro
     /// </summary>
     public virtual void OnItemRemoved(Item item)
     {
+        #region ##zulu mod
+        if (item.IsEquippableLayer)
+        {
+            isZuluDirty = true;
+        }
+        #endregion
     }
 
     /// <summary>

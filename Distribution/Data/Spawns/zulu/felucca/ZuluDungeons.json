@@ -1,0 +1,5611 @@
+[
+  {
+    "type": "Spawner",
+    "guid": "46d218a4-f1bc-5768-8ebe-91281c1b7699",
+    "name": "Zulu Spawner (DESTARD_1)",
+    "location": [
+      5243,
+      943,
+      0
+    ],
+    "map": "Felucca",
+    "count": 30,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 62,
+    "walkingRange": 62,
+    "entries": [
+      {
+        "name": "ZuluDrake1",
+        "maxCount": 9,
+        "probability": 20
+      },
+      {
+        "name": "ZuluDrake2",
+        "maxCount": 9,
+        "probability": 20
+      },
+      {
+        "name": "ZuluRockscorpion",
+        "maxCount": 3,
+        "probability": 8
+      },
+      {
+        "name": "ZuluEarthdrake",
+        "maxCount": 2,
+        "probability": 6
+      },
+      {
+        "name": "ZuluEarthelemental",
+        "maxCount": 2,
+        "probability": 6
+      },
+      {
+        "name": "ZuluEarthelementallord",
+        "maxCount": 2,
+        "probability": 6
+      },
+      {
+        "name": "ZuluPhasingdrake",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluWaterdrake",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluAirdrake",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluFiredrake",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluPhasespider",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluRockspider",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluDragon1",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluDragon2",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "Rat",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluGazer",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFirecrow",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDireweaver",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPhoenix",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluHeavenlydrakecaretaker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluMountainostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ebdea59b-53cb-5333-954f-8c7c91ac9a3b",
+    "name": "Zulu Spawner (DESTARD_2)",
+    "location": [
+      5147,
+      914,
+      0
+    ],
+    "map": "Felucca",
+    "count": 10,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 27,
+    "walkingRange": 27,
+    "entries": [
+      {
+        "name": "ZuluDrake1",
+        "maxCount": 3,
+        "probability": 20
+      },
+      {
+        "name": "ZuluDrake2",
+        "maxCount": 3,
+        "probability": 20
+      },
+      {
+        "name": "ZuluRockscorpion",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluEarthdrake",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluEarthelemental",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluEarthelementallord",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluPhasingdrake",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluWaterdrake",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluAirdrake",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluFiredrake",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluPhasespider",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluRockspider",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluDragon1",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluDragon2",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "Rat",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluGazer",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFirecrow",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDireweaver",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPhoenix",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluHeavenlydrakecaretaker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluMountainostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "2e09e565-2470-5030-9b9f-b7bb992c2cf6",
+    "name": "Zulu Spawner (DESTARD_3)",
+    "location": [
+      5339,
+      951,
+      0
+    ],
+    "map": "Felucca",
+    "count": 10,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 36,
+    "walkingRange": 36,
+    "entries": [
+      {
+        "name": "ZuluDragon1",
+        "maxCount": 4,
+        "probability": 29
+      },
+      {
+        "name": "ZuluDragon2",
+        "maxCount": 4,
+        "probability": 29
+      },
+      {
+        "name": "ZuluEarthdrake",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluWaterdrake",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluAirdrake",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluFiredrake",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluPhasingdrake",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluPoisondragon",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluShadowdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluRockdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluTidaldragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluStormdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPhoenix",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGreatwyrm",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluInfernodragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluWonderdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFlamingwyrm",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluMountainostard",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDragonostard",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluHeavenlydrakecaretaker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluChimera",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "af235308-db3a-591f-86b4-d51c5e0bf580",
+    "name": "Zulu Spawner (DESTARD_4)",
+    "location": [
+      5205,
+      782,
+      0
+    ],
+    "map": "Felucca",
+    "count": 3,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 17,
+    "walkingRange": 17,
+    "entries": [
+      {
+        "name": "ZuluShadowdragon",
+        "maxCount": 1,
+        "probability": 11
+      },
+      {
+        "name": "ZuluPoisondragon",
+        "maxCount": 1,
+        "probability": 11
+      },
+      {
+        "name": "ZuluGreatwyrm",
+        "maxCount": 1,
+        "probability": 11
+      },
+      {
+        "name": "ZuluInfernodragon",
+        "maxCount": 1,
+        "probability": 11
+      },
+      {
+        "name": "ZuluWonderdragon",
+        "maxCount": 1,
+        "probability": 11
+      },
+      {
+        "name": "ZuluFlamingwyrm",
+        "maxCount": 1,
+        "probability": 11
+      },
+      {
+        "name": "ZuluGoldendragon",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluRockdragon",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluTidaldragon",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluStormdragon",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluMountainostard",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluChimera",
+        "maxCount": 1,
+        "probability": 5
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "91619b52-13be-5734-b41a-5dd3a0d64322",
+    "name": "Zulu Spawner (DESTARD_5)",
+    "location": [
+      5152,
+      838,
+      0
+    ],
+    "map": "Felucca",
+    "count": 15,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 42,
+    "walkingRange": 42,
+    "entries": [
+      {
+        "name": "ZuluDragon1",
+        "maxCount": 6,
+        "probability": 29
+      },
+      {
+        "name": "ZuluDragon2",
+        "maxCount": 6,
+        "probability": 29
+      },
+      {
+        "name": "ZuluEarthdrake",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluWaterdrake",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluAirdrake",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluFiredrake",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluPhasingdrake",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluPoisondragon",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluShadowdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluRockdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluTidaldragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluStormdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPhoenix",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGreatwyrm",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluInfernodragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluWonderdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFlamingwyrm",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluMountainostard",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDragonostard",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluHeavenlydrakecaretaker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluChimera",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "481572bc-b359-55fb-896a-3edd0eb69d43",
+    "name": "Zulu Spawner (DESTARD_6)",
+    "location": [
+      5159,
+      997,
+      0
+    ],
+    "map": "Felucca",
+    "count": 15,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 34,
+    "walkingRange": 34,
+    "entries": [
+      {
+        "name": "ZuluDrake1",
+        "maxCount": 4,
+        "probability": 20
+      },
+      {
+        "name": "ZuluDrake2",
+        "maxCount": 4,
+        "probability": 20
+      },
+      {
+        "name": "ZuluRockscorpion",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluEarthdrake",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluEarthelemental",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluEarthelementallord",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluPhasingdrake",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluWaterdrake",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluAirdrake",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluFiredrake",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluPhasespider",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluRockspider",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluDragon1",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluDragon2",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "Rat",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluGazer",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFirecrow",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDireweaver",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPhoenix",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluHeavenlydrakecaretaker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluMountainostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "4f9eb7f1-f8c6-530d-a63a-1e0519fba749",
+    "name": "Zulu Spawner (DESTARD_7)",
+    "location": [
+      5256,
+      817,
+      0
+    ],
+    "map": "Felucca",
+    "count": 20,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 68,
+    "walkingRange": 68,
+    "entries": [
+      {
+        "name": "ZuluDragon1",
+        "maxCount": 8,
+        "probability": 29
+      },
+      {
+        "name": "ZuluDragon2",
+        "maxCount": 8,
+        "probability": 29
+      },
+      {
+        "name": "ZuluEarthdrake",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluWaterdrake",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluAirdrake",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluFiredrake",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluPhasingdrake",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluPoisondragon",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluShadowdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluRockdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluTidaldragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluStormdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPhoenix",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGreatwyrm",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluInfernodragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluWonderdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFlamingwyrm",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluMountainostard",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDragonostard",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluHeavenlydrakecaretaker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluChimera",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "69df46d6-267b-5a56-8624-6532a4639d29",
+    "name": "Zulu Spawner (DESPISE_CIMA)",
+    "location": [
+      5446,
+      575,
+      0
+    ],
+    "map": "Felucca",
+    "count": 25,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 67,
+    "walkingRange": 67,
+    "entries": [
+      {
+        "name": "ZuluLizardman",
+        "maxCount": 15,
+        "probability": 40
+      },
+      {
+        "name": "ZuluAlligator",
+        "maxCount": 7,
+        "probability": 20
+      },
+      {
+        "name": "ZuluToad",
+        "maxCount": 3,
+        "probability": 8
+      },
+      {
+        "name": "ZuluSlime",
+        "maxCount": 3,
+        "probability": 8
+      },
+      {
+        "name": "ZuluLizardman2",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluLizardman3",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluLizardmanalchemist",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluAcidelemental",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluGorilla",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluWildboar",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluSwampdrake",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluLizardmanshaman",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "69a12309-b8f8-5684-aafa-93da8b5c2c8d",
+    "name": "Zulu Spawner (DESPISE_BAIXO)",
+    "location": [
+      5448,
+      708,
+      0
+    ],
+    "map": "Felucca",
+    "count": 15,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 70,
+    "walkingRange": 70,
+    "entries": [
+      {
+        "name": "ZuluLizardman2",
+        "maxCount": 5,
+        "probability": 23
+      },
+      {
+        "name": "ZuluLizardman3",
+        "maxCount": 5,
+        "probability": 23
+      },
+      {
+        "name": "ZuluLizardmanalchemist",
+        "maxCount": 5,
+        "probability": 23
+      },
+      {
+        "name": "ZuluLizardmanshaman",
+        "maxCount": 3,
+        "probability": 14
+      },
+      {
+        "name": "ZuluGorilla",
+        "maxCount": 2,
+        "probability": 9
+      },
+      {
+        "name": "ZuluLizardman",
+        "maxCount": 1,
+        "probability": 4
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "f8d399c1-5ed4-563c-9aaf-792da59bb8b6",
+    "name": "Zulu Spawner (DESPISE_2)",
+    "location": [
+      5439,
+      822,
+      0
+    ],
+    "map": "Felucca",
+    "count": 20,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 59,
+    "walkingRange": 59,
+    "entries": [
+      {
+        "name": "ZuluLizardman",
+        "maxCount": 12,
+        "probability": 40
+      },
+      {
+        "name": "ZuluAlligator",
+        "maxCount": 6,
+        "probability": 20
+      },
+      {
+        "name": "ZuluToad",
+        "maxCount": 2,
+        "probability": 8
+      },
+      {
+        "name": "ZuluSlime",
+        "maxCount": 2,
+        "probability": 8
+      },
+      {
+        "name": "ZuluLizardman2",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluLizardman3",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluLizardmanalchemist",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluAcidelemental",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluGorilla",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluWildboar",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluSwampdrake",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluLizardmanshaman",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ce3d7c9a-576e-5aa4-b3a5-3c20340a7bc3",
+    "name": "Zulu Spawner (DESPISE_3)",
+    "location": [
+      5442,
+      950,
+      0
+    ],
+    "map": "Felucca",
+    "count": 20,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 70,
+    "walkingRange": 70,
+    "entries": [
+      {
+        "name": "ZuluLizardman2",
+        "maxCount": 7,
+        "probability": 23
+      },
+      {
+        "name": "ZuluLizardman3",
+        "maxCount": 7,
+        "probability": 23
+      },
+      {
+        "name": "ZuluLizardmanalchemist",
+        "maxCount": 7,
+        "probability": 23
+      },
+      {
+        "name": "ZuluLizardmanshaman",
+        "maxCount": 4,
+        "probability": 14
+      },
+      {
+        "name": "ZuluGorilla",
+        "maxCount": 2,
+        "probability": 9
+      },
+      {
+        "name": "ZuluLizardman",
+        "maxCount": 1,
+        "probability": 4
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "4f7a38d8-e541-5329-a456-41d2f58fe756",
+    "name": "Zulu Spawner (DESPISE_4)",
+    "location": [
+      5568,
+      849,
+      0
+    ],
+    "map": "Felucca",
+    "count": 25,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 85,
+    "walkingRange": 85,
+    "entries": [
+      {
+        "name": "ZuluLizardman",
+        "maxCount": 15,
+        "probability": 40
+      },
+      {
+        "name": "ZuluAlligator",
+        "maxCount": 7,
+        "probability": 20
+      },
+      {
+        "name": "ZuluToad",
+        "maxCount": 3,
+        "probability": 8
+      },
+      {
+        "name": "ZuluSlime",
+        "maxCount": 3,
+        "probability": 8
+      },
+      {
+        "name": "ZuluLizardman2",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluLizardman3",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluLizardmanalchemist",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluAcidelemental",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluGorilla",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluWildboar",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluSwampdrake",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluLizardmanshaman",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "20301c15-e364-509d-bb15-10a9c29945f3",
+    "name": "Zulu Spawner (DESPISE_5)",
+    "location": [
+      5556,
+      824,
+      0
+    ],
+    "map": "Felucca",
+    "count": 5,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 9,
+    "walkingRange": 9,
+    "entries": [
+      {
+        "name": "ZuluLizardman2",
+        "maxCount": 1,
+        "probability": 23
+      },
+      {
+        "name": "ZuluLizardman3",
+        "maxCount": 1,
+        "probability": 23
+      },
+      {
+        "name": "ZuluLizardmanalchemist",
+        "maxCount": 1,
+        "probability": 23
+      },
+      {
+        "name": "ZuluLizardmanshaman",
+        "maxCount": 1,
+        "probability": 14
+      },
+      {
+        "name": "ZuluGorilla",
+        "maxCount": 1,
+        "probability": 9
+      },
+      {
+        "name": "ZuluLizardman",
+        "maxCount": 1,
+        "probability": 4
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "046e8db5-f5aa-53dc-b2e1-956f88aa5da7",
+    "name": "Zulu Spawner (DESPISE_6)",
+    "location": [
+      5396,
+      983,
+      0
+    ],
+    "map": "Felucca",
+    "count": 8,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 28,
+    "walkingRange": 28,
+    "entries": [
+      {
+        "name": "ZuluLizardman2",
+        "maxCount": 2,
+        "probability": 23
+      },
+      {
+        "name": "ZuluLizardman3",
+        "maxCount": 2,
+        "probability": 23
+      },
+      {
+        "name": "ZuluLizardmanalchemist",
+        "maxCount": 2,
+        "probability": 23
+      },
+      {
+        "name": "ZuluLizardmanshaman",
+        "maxCount": 1,
+        "probability": 14
+      },
+      {
+        "name": "ZuluGorilla",
+        "maxCount": 1,
+        "probability": 9
+      },
+      {
+        "name": "ZuluLizardman",
+        "maxCount": 1,
+        "probability": 4
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "9ab7e7bf-0290-57db-8a35-d1a66771cb0f",
+    "name": "Zulu Spawner (DECEIT_1)",
+    "location": [
+      5181,
+      583,
+      0
+    ],
+    "map": "Felucca",
+    "count": 25,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 56,
+    "walkingRange": 56,
+    "entries": [
+      {
+        "name": "ZuluBrotherhoodpet",
+        "maxCount": 4,
+        "probability": 11
+      },
+      {
+        "name": "ZuluBrotherhoodmember1",
+        "maxCount": 3,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodmember2",
+        "maxCount": 3,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodmember3",
+        "maxCount": 3,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodmember4",
+        "maxCount": 3,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodmember5",
+        "maxCount": 3,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior1",
+        "maxCount": 2,
+        "probability": 6
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior2",
+        "maxCount": 2,
+        "probability": 6
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior3",
+        "maxCount": 2,
+        "probability": 6
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 2,
+        "probability": 6
+      },
+      {
+        "name": "ZuluSnowelemental",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBlackcat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIcespawn",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodscout",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIcemagebrother",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFrostspider",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPhasespider",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFrostgazer",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran4",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran5",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluEnchantedspellbook",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "beffe997-6cb7-5ed7-9631-af58ec8026ed",
+    "name": "Zulu Spawner (DECEIT_2)",
+    "location": [
+      5145,
+      602,
+      0
+    ],
+    "map": "Felucca",
+    "count": 8,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 26,
+    "walkingRange": 26,
+    "entries": [
+      {
+        "name": "ZuluBrotherhoodpet",
+        "maxCount": 1,
+        "probability": 11
+      },
+      {
+        "name": "ZuluBrotherhoodmember1",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodmember2",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodmember3",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodmember4",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodmember5",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior1",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior2",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior3",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluSnowelemental",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBlackcat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIcespawn",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodscout",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIcemagebrother",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFrostspider",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPhasespider",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFrostgazer",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran4",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran5",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluEnchantedspellbook",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "698e3304-093c-59e9-befa-517602678c17",
+    "name": "Zulu Spawner (DECEIT_3)",
+    "location": [
+      5314,
+      580,
+      0
+    ],
+    "map": "Felucca",
+    "count": 20,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 53,
+    "walkingRange": 53,
+    "entries": [
+      {
+        "name": "ZuluBrotherhoodsoldier1",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier2",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier3",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "ZuluBrotherhoodveteran1",
+        "maxCount": 2,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodveteran2",
+        "maxCount": 2,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodveteran3",
+        "maxCount": 2,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodveteran4",
+        "maxCount": 2,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodveteran5",
+        "maxCount": 2,
+        "probability": 8
+      },
+      {
+        "name": "ZuluEnchantedspellbook",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluAirelementallord",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluWaterelementallord",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluLessershadow",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluFrostgazer",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIcespawn",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBloodelemental",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmember1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmember2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmember3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmember4",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmember5",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite4",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite5",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodassassin1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodassassin2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodassassin3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBlackcat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFrostspider",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsummoner",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIcemagebrother",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "8ad66447-205e-565f-a3d2-1616defdeadf",
+    "name": "Zulu Spawner (DECEIT_4)",
+    "location": [
+      5294,
+      622,
+      0
+    ],
+    "map": "Felucca",
+    "count": 5,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 7,
+    "walkingRange": 7,
+    "entries": [
+      {
+        "name": "ZuluBrotherhoodsoldier1",
+        "maxCount": 1,
+        "probability": 10
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier2",
+        "maxCount": 1,
+        "probability": 10
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier3",
+        "maxCount": 1,
+        "probability": 10
+      },
+      {
+        "name": "ZuluBrotherhoodveteran1",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodveteran2",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodveteran3",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodveteran4",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluBrotherhoodveteran5",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluEnchantedspellbook",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluAirelementallord",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluWaterelementallord",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluLessershadow",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluFrostgazer",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIcespawn",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBloodelemental",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmember1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmember2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmember3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmember4",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmember5",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite4",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite5",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodassassin1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodassassin2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodassassin3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBlackcat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFrostspider",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsummoner",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIcemagebrother",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "6c1cc13b-6b6f-591c-a955-553c29ec91a8",
+    "name": "Zulu Spawner (DECEIT_5)",
+    "location": [
+      5178,
+      699,
+      0
+    ],
+    "map": "Felucca",
+    "count": 30,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 55,
+    "walkingRange": 55,
+    "entries": [
+      {
+        "name": "ZuluBrotherhoodbrood",
+        "maxCount": 4,
+        "probability": 9
+      },
+      {
+        "name": "ZuluBrotherhoodarachnid",
+        "maxCount": 4,
+        "probability": 9
+      },
+      {
+        "name": "ZuluBrotherhoodassassin1",
+        "maxCount": 4,
+        "probability": 9
+      },
+      {
+        "name": "ZuluBrotherhoodassassin2",
+        "maxCount": 4,
+        "probability": 9
+      },
+      {
+        "name": "ZuluBrotherhoodassassin3",
+        "maxCount": 4,
+        "probability": 9
+      },
+      {
+        "name": "ZuluBrotherhoodelite1",
+        "maxCount": 3,
+        "probability": 7
+      },
+      {
+        "name": "ZuluBrotherhoodelite2",
+        "maxCount": 3,
+        "probability": 7
+      },
+      {
+        "name": "ZuluBrotherhoodelite3",
+        "maxCount": 3,
+        "probability": 7
+      },
+      {
+        "name": "ZuluBrotherhoodelite4",
+        "maxCount": 3,
+        "probability": 7
+      },
+      {
+        "name": "ZuluBrotherhoodelite5",
+        "maxCount": 3,
+        "probability": 7
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluShadowlord",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsummoner",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran4",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodveteran5",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluSlime",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluEnchantedspellbook",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluAcidelemental",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBloodelemental",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBlackwisp",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluMechanicaldragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluMongbat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhooddragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmaster1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmaster2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmaster3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmaster4",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodmaster5",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDireweaver",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFrostdrake",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPoisonostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "76bdfdba-2930-5456-916e-b48c9b7a5c31",
+    "name": "Zulu Spawner (DECEIT_6)",
+    "location": [
+      5151,
+      743,
+      0
+    ],
+    "map": "Felucca",
+    "count": 4,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 8,
+    "walkingRange": 8,
+    "entries": [
+      {
+        "name": "ZuluBrotherhoodmaster1",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodmaster2",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodmaster3",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodmaster4",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodmaster5",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodelite1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite4",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite5",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier3",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ac5710b2-1a02-51e3-990e-f6eb41cd5451",
+    "name": "Zulu Spawner (DECEIT_7)",
+    "location": [
+      5220,
+      736,
+      0
+    ],
+    "map": "Felucca",
+    "count": 4,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 15,
+    "walkingRange": 15,
+    "entries": [
+      {
+        "name": "ZuluBrotherhoodmaster1",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodmaster2",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodmaster3",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodmaster4",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodmaster5",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodelite1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite4",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite5",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier3",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "dffdba0d-2afa-5dc2-bdc6-a694f5ba7058",
+    "name": "Zulu Spawner (DECEIT_8)",
+    "location": [
+      5293,
+      704,
+      0
+    ],
+    "map": "Felucca",
+    "count": 20,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 57,
+    "walkingRange": 57,
+    "entries": [
+      {
+        "name": "ZuluBrotherhoodsoldier1",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier2",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier3",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodveteran1",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodveteran2",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodveteran3",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodveteran4",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodveteran5",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior1",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluBrotherhoodmember1",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBrotherhoodmember2",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBrotherhoodmember3",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBrotherhoodmember4",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBrotherhoodmember5",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior2",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior3",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBrotherhoodelite1",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodelite2",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodelite3",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodelite4",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodelite5",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier1",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier2",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier3",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodscout",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluPriestbrother",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIcemagebrother",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsummoner",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "6873e419-47e5-5152-827f-0b83e6af45f5",
+    "name": "Zulu Spawner (DECEIT_9)",
+    "location": [
+      5318,
+      748,
+      0
+    ],
+    "map": "Felucca",
+    "count": 8,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 16,
+    "walkingRange": 16,
+    "entries": [
+      {
+        "name": "ZuluBrotherhoodsoldier1",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier2",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier3",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodveteran1",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodveteran2",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodveteran3",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodveteran4",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodveteran5",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior1",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluBrotherhoodmember1",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBrotherhoodmember2",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBrotherhoodmember3",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBrotherhoodmember4",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBrotherhoodmember5",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior2",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBrotherhoodwarrior3",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBrotherhoodelite1",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodelite2",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodelite3",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodelite4",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodelite5",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier1",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier2",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier3",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluBrotherhoodscout",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluPriestbrother",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIcemagebrother",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsummoner",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "9abb7a1e-4f52-5e97-88a6-92a1dd515924",
+    "name": "Zulu Spawner (DECEIT_10)",
+    "location": [
+      5275,
+      674,
+      0
+    ],
+    "map": "Felucca",
+    "count": 5,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 12,
+    "walkingRange": 12,
+    "entries": [
+      {
+        "name": "ZuluBrotherhoodmaster1",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodmaster2",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodmaster3",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodmaster4",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodmaster5",
+        "maxCount": 1,
+        "probability": 18
+      },
+      {
+        "name": "ZuluBrotherhoodelite1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite3",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite4",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodelite5",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier1",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier2",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBrotherhoodsoldier3",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "91bff26f-6115-542a-8020-04ba1a6f4dfc",
+    "name": "Zulu Spawner (HYTHLOTH_1)",
+    "location": [
+      5950,
+      65,
+      0
+    ],
+    "map": "Felucca",
+    "count": 30,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 50,
+    "walkingRange": 50,
+    "entries": [
+      {
+        "name": "ZuluImp",
+        "maxCount": 14,
+        "probability": 32
+      },
+      {
+        "name": "ZuluMinordaemon",
+        "maxCount": 7,
+        "probability": 16
+      },
+      {
+        "name": "ZuluLessershadow",
+        "maxCount": 5,
+        "probability": 12
+      },
+      {
+        "name": "ZuluBloodelemental",
+        "maxCount": 4,
+        "probability": 9
+      },
+      {
+        "name": "ZuluGargoyle",
+        "maxCount": 2,
+        "probability": 6
+      },
+      {
+        "name": "ZuluFlamingskeleton",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBloodliche",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluDaemon",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBewitchedpeasant",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFlaminggazer",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFlamegargoyle",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPhasespider",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBewitchedbardiche",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBewitchedsword",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBewitchedarmor",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBewitchedgauntlets",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBewitchedspear",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBewitchedwarhammer",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluTwistedanimation",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluEnchantedspellbook",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ed64d457-22db-53af-8573-d1397ed48929",
+    "name": "Zulu Spawner (HYTHLOTH_2)",
+    "location": [
+      5992,
+      103,
+      0
+    ],
+    "map": "Felucca",
+    "count": 5,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 9,
+    "walkingRange": 9,
+    "entries": [
+      {
+        "name": "ZuluImp",
+        "maxCount": 2,
+        "probability": 32
+      },
+      {
+        "name": "ZuluMinordaemon",
+        "maxCount": 1,
+        "probability": 16
+      },
+      {
+        "name": "ZuluLessershadow",
+        "maxCount": 1,
+        "probability": 12
+      },
+      {
+        "name": "ZuluBloodelemental",
+        "maxCount": 1,
+        "probability": 9
+      },
+      {
+        "name": "ZuluGargoyle",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluFlamingskeleton",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBloodliche",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluDaemon",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBewitchedpeasant",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFlaminggazer",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFlamegargoyle",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPhasespider",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBewitchedbardiche",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBewitchedsword",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBewitchedarmor",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBewitchedgauntlets",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBewitchedspear",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBewitchedwarhammer",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluTwistedanimation",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluEnchantedspellbook",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "fe9a5f9c-30e4-51af-a754-dae1d3bbcf0e",
+    "name": "Zulu Spawner (HYTHLOTH_3)",
+    "location": [
+      5951,
+      192,
+      0
+    ],
+    "map": "Felucca",
+    "count": 25,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 51,
+    "walkingRange": 51,
+    "entries": [
+      {
+        "name": "ZuluMinordaemon",
+        "maxCount": 12,
+        "probability": 32
+      },
+      {
+        "name": "ZuluDaemon",
+        "maxCount": 6,
+        "probability": 16
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 4,
+        "probability": 12
+      },
+      {
+        "name": "ZuluFlamegargoyle",
+        "maxCount": 3,
+        "probability": 9
+      },
+      {
+        "name": "ZuluFlamingskeleton",
+        "maxCount": 2,
+        "probability": 6
+      },
+      {
+        "name": "ZuluImp",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLessershadow",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBloodliche",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluShadowlord",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBlackwisp",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluUmbralflicker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluLichelord",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDaemonknight",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluEvisceratedcarcass",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDireweaver",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluEnchantedspellbook",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluTwistedanimation",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFallenangel",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "222da2c9-ce17-5293-b8ca-3742697c4e67",
+    "name": "Zulu Spawner (HYTHLOTH_4)",
+    "location": [
+      5991,
+      150,
+      0
+    ],
+    "map": "Felucca",
+    "count": 5,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 8,
+    "walkingRange": 8,
+    "entries": [
+      {
+        "name": "ZuluMinordaemon",
+        "maxCount": 2,
+        "probability": 32
+      },
+      {
+        "name": "ZuluDaemon",
+        "maxCount": 1,
+        "probability": 16
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 1,
+        "probability": 12
+      },
+      {
+        "name": "ZuluFlamegargoyle",
+        "maxCount": 1,
+        "probability": 9
+      },
+      {
+        "name": "ZuluFlamingskeleton",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluImp",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLessershadow",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBloodliche",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluShadowlord",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBlackwisp",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluUmbralflicker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluLichelord",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDaemonknight",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluEvisceratedcarcass",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDireweaver",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluEnchantedspellbook",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluTwistedanimation",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFallenangel",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "81208308-aa29-5dc9-b29d-f617c760e392",
+    "name": "Zulu Spawner (HYTHLOTH_5)",
+    "location": [
+      5918,
+      226,
+      0
+    ],
+    "map": "Felucca",
+    "count": 5,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 11,
+    "walkingRange": 11,
+    "entries": [
+      {
+        "name": "ZuluMinordaemon",
+        "maxCount": 2,
+        "probability": 32
+      },
+      {
+        "name": "ZuluDaemon",
+        "maxCount": 1,
+        "probability": 16
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 1,
+        "probability": 12
+      },
+      {
+        "name": "ZuluFlamegargoyle",
+        "maxCount": 1,
+        "probability": 9
+      },
+      {
+        "name": "ZuluFlamingskeleton",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluImp",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLessershadow",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBloodliche",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluShadowlord",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBlackwisp",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluUmbralflicker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluLichelord",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDaemonknight",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluEvisceratedcarcass",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDireweaver",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluEnchantedspellbook",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluTwistedanimation",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFallenangel",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "d3fd6bc3-4fd9-5109-9592-0c6e2e61ddb1",
+    "name": "Zulu Spawner (HYTHLOTH_6)",
+    "location": [
+      5954,
+      226,
+      0
+    ],
+    "map": "Felucca",
+    "count": 5,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 11,
+    "walkingRange": 11,
+    "entries": [
+      {
+        "name": "ZuluMinordaemon",
+        "maxCount": 2,
+        "probability": 32
+      },
+      {
+        "name": "ZuluDaemon",
+        "maxCount": 1,
+        "probability": 16
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 1,
+        "probability": 12
+      },
+      {
+        "name": "ZuluFlamegargoyle",
+        "maxCount": 1,
+        "probability": 9
+      },
+      {
+        "name": "ZuluFlamingskeleton",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluImp",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLessershadow",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBloodliche",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluShadowlord",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBlackwisp",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluUmbralflicker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluLichelord",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDaemonknight",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluEvisceratedcarcass",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDireweaver",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluEnchantedspellbook",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluTwistedanimation",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFallenangel",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "edd1f5fb-83c5-5811-a258-cfe309e0ea0b",
+    "name": "Zulu Spawner (HYTHLOTH_7)",
+    "location": [
+      6074,
+      192,
+      0
+    ],
+    "map": "Felucca",
+    "count": 25,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 56,
+    "walkingRange": 56,
+    "entries": [
+      {
+        "name": "ZuluDaemon",
+        "maxCount": 12,
+        "probability": 33
+      },
+      {
+        "name": "ZuluDaemonknight",
+        "maxCount": 6,
+        "probability": 16
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 5,
+        "probability": 13
+      },
+      {
+        "name": "ZuluShadowlord",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "ZuluFlamingskeleton",
+        "maxCount": 2,
+        "probability": 6
+      },
+      {
+        "name": "ZuluHellguardian",
+        "maxCount": 2,
+        "probability": 6
+      },
+      {
+        "name": "ZuluBlackwisp",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLichelord",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluFallenangel",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFlamingwisp",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPossesseddragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluUmbralflicker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBloodliche",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluLessershadow",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFlamegargoyle",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDemonostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "d836d20a-27a7-5ce0-a58a-0aad5dfaadb0",
+    "name": "Zulu Spawner (HYTHLOTH_8)",
+    "location": [
+      6055,
+      158,
+      0
+    ],
+    "map": "Felucca",
+    "count": 5,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 7,
+    "walkingRange": 7,
+    "entries": [
+      {
+        "name": "ZuluDaemon",
+        "maxCount": 2,
+        "probability": 33
+      },
+      {
+        "name": "ZuluDaemonknight",
+        "maxCount": 1,
+        "probability": 16
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 1,
+        "probability": 13
+      },
+      {
+        "name": "ZuluShadowlord",
+        "maxCount": 1,
+        "probability": 10
+      },
+      {
+        "name": "ZuluFlamingskeleton",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluHellguardian",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluBlackwisp",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLichelord",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluFallenangel",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFlamingwisp",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPossesseddragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluUmbralflicker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBloodliche",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluLessershadow",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFlamegargoyle",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDemonostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "39366e2b-deb8-5137-a7b2-c9b658d7a790",
+    "name": "Zulu Spawner (HYTHLOTH_9)",
+    "location": [
+      6043,
+      211,
+      0
+    ],
+    "map": "Felucca",
+    "count": 10,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 20,
+    "walkingRange": 20,
+    "entries": [
+      {
+        "name": "ZuluDaemon",
+        "maxCount": 5,
+        "probability": 33
+      },
+      {
+        "name": "ZuluDaemonknight",
+        "maxCount": 2,
+        "probability": 16
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 2,
+        "probability": 13
+      },
+      {
+        "name": "ZuluShadowlord",
+        "maxCount": 1,
+        "probability": 10
+      },
+      {
+        "name": "ZuluFlamingskeleton",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluHellguardian",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluBlackwisp",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLichelord",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluFallenangel",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFlamingwisp",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPossesseddragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluUmbralflicker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBloodliche",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluLessershadow",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFlamegargoyle",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDemonostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "3bdd34d3-1d44-5e0a-a85d-e42e1a97a583",
+    "name": "Zulu Spawner (HYTHLOTH_10)",
+    "location": [
+      6120,
+      224,
+      0
+    ],
+    "map": "Felucca",
+    "count": 5,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 18,
+    "walkingRange": 18,
+    "entries": [
+      {
+        "name": "ZuluHellguardian",
+        "maxCount": 2,
+        "probability": 35
+      },
+      {
+        "name": "ZuluDaemonknight",
+        "maxCount": 1,
+        "probability": 17
+      },
+      {
+        "name": "ZuluShadowlord",
+        "maxCount": 1,
+        "probability": 14
+      },
+      {
+        "name": "ZuluDaemon",
+        "maxCount": 1,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 1,
+        "probability": 7
+      },
+      {
+        "name": "ZuluFallenangel",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLichelord",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluFlamingwisp",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluUmbralflicker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBlackwisp",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPossesseddragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDemonostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "4525b45f-6f34-513e-8042-207b975d45f9",
+    "name": "Zulu Spawner (HYTHLOTH_11)",
+    "location": [
+      6082,
+      69,
+      0
+    ],
+    "map": "Felucca",
+    "count": 20,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 44,
+    "walkingRange": 44,
+    "entries": [
+      {
+        "name": "ZuluHellguardian",
+        "maxCount": 10,
+        "probability": 35
+      },
+      {
+        "name": "ZuluDaemonknight",
+        "maxCount": 5,
+        "probability": 17
+      },
+      {
+        "name": "ZuluShadowlord",
+        "maxCount": 4,
+        "probability": 14
+      },
+      {
+        "name": "ZuluDaemon",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 2,
+        "probability": 7
+      },
+      {
+        "name": "ZuluFallenangel",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLichelord",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluFlamingwisp",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluUmbralflicker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBlackwisp",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPossesseddragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDemonostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "3bcd706d-cc20-584a-98f5-e903e82194bb",
+    "name": "Zulu Spawner (HYTHLOTH_12)",
+    "location": [
+      6111,
+      87,
+      0
+    ],
+    "map": "Felucca",
+    "count": 5,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 8,
+    "walkingRange": 8,
+    "entries": [
+      {
+        "name": "ZuluHellguardian",
+        "maxCount": 2,
+        "probability": 35
+      },
+      {
+        "name": "ZuluDaemonknight",
+        "maxCount": 1,
+        "probability": 17
+      },
+      {
+        "name": "ZuluShadowlord",
+        "maxCount": 1,
+        "probability": 14
+      },
+      {
+        "name": "ZuluDaemon",
+        "maxCount": 1,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 1,
+        "probability": 7
+      },
+      {
+        "name": "ZuluFallenangel",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLichelord",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluFlamingwisp",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluUmbralflicker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBlackwisp",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPossesseddragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDemonostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "03434b4d-1945-59d7-ac94-a36ab198a5ff",
+    "name": "Zulu Spawner (HYTHLOTH_13)",
+    "location": [
+      6054,
+      46,
+      0
+    ],
+    "map": "Felucca",
+    "count": 3,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 7,
+    "walkingRange": 7,
+    "entries": [
+      {
+        "name": "ZuluHellguardian",
+        "maxCount": 1,
+        "probability": 35
+      },
+      {
+        "name": "ZuluDaemonknight",
+        "maxCount": 1,
+        "probability": 17
+      },
+      {
+        "name": "ZuluShadowlord",
+        "maxCount": 1,
+        "probability": 14
+      },
+      {
+        "name": "ZuluDaemon",
+        "maxCount": 1,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 1,
+        "probability": 7
+      },
+      {
+        "name": "ZuluFallenangel",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLichelord",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluFlamingwisp",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluUmbralflicker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBlackwisp",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPossesseddragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDemonostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "001d230e-a8c5-568c-95c1-3eb29e7e7644",
+    "name": "Zulu Spawner (HYTHLOTH_14)",
+    "location": [
+      6103,
+      38,
+      0
+    ],
+    "map": "Felucca",
+    "count": 3,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 8,
+    "walkingRange": 8,
+    "entries": [
+      {
+        "name": "ZuluHellguardian",
+        "maxCount": 1,
+        "probability": 35
+      },
+      {
+        "name": "ZuluDaemonknight",
+        "maxCount": 1,
+        "probability": 17
+      },
+      {
+        "name": "ZuluShadowlord",
+        "maxCount": 1,
+        "probability": 14
+      },
+      {
+        "name": "ZuluDaemon",
+        "maxCount": 1,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGreatershadow",
+        "maxCount": 1,
+        "probability": 7
+      },
+      {
+        "name": "ZuluFallenangel",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLichelord",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluFlamingwisp",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluUmbralflicker",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBlackwisp",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluPossesseddragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDemonostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "e0743fea-9b09-5855-bf74-82ca11cd9fcb",
+    "name": "Zulu Spawner (SHAME_1)",
+    "location": [
+      5438,
+      66,
+      0
+    ],
+    "map": "Felucca",
+    "count": 20,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 60,
+    "walkingRange": 60,
+    "entries": [
+      {
+        "name": "ZuluTroll1",
+        "maxCount": 21,
+        "probability": 71
+      },
+      {
+        "name": "ZuluTroll2",
+        "maxCount": 6,
+        "probability": 21
+      },
+      {
+        "name": "ZuluTroll3",
+        "maxCount": 2,
+        "probability": 7
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "b9269450-068d-5f2e-923a-bdb73822800d",
+    "name": "Zulu Spawner (SHAME_2)",
+    "location": [
+      5566,
+      62,
+      0
+    ],
+    "map": "Felucca",
+    "count": 25,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 58,
+    "walkingRange": 58,
+    "entries": [
+      {
+        "name": "ZuluTroll2",
+        "maxCount": 26,
+        "probability": 71
+      },
+      {
+        "name": "ZuluTroll3",
+        "maxCount": 5,
+        "probability": 14
+      },
+      {
+        "name": "ZuluTrollshaman",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluTrollchief",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluTroll1",
+        "maxCount": 1,
+        "probability": 4
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "386437d1-4c4c-5806-9a0a-63321203f28d",
+    "name": "Zulu Spawner (SHAME_3)",
+    "location": [
+      5466,
+      195,
+      0
+    ],
+    "map": "Felucca",
+    "count": 35,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 100,
+    "walkingRange": 100,
+    "entries": [
+      {
+        "name": "ZuluMagusboneknight",
+        "maxCount": 29,
+        "probability": 56
+      },
+      {
+        "name": "ZuluMaguszombie",
+        "maxCount": 11,
+        "probability": 21
+      },
+      {
+        "name": "ZuluMagussoldier",
+        "maxCount": 4,
+        "probability": 8
+      },
+      {
+        "name": "ZuluMongbat",
+        "maxCount": 3,
+        "probability": 6
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 2,
+        "probability": 4
+      },
+      {
+        "name": "ZuluDireweaver",
+        "maxCount": 1,
+        "probability": 2
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "a9966e67-9897-5d28-bb6f-8628faf40545",
+    "name": "Zulu Spawner (SHAME_4)",
+    "location": [
+      5443,
+      186,
+      0
+    ],
+    "map": "Felucca",
+    "count": 5,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 11,
+    "walkingRange": 11,
+    "entries": [
+      {
+        "name": "ZuluTroll3",
+        "maxCount": 3,
+        "probability": 42
+      },
+      {
+        "name": "ZuluTrollshaman",
+        "maxCount": 2,
+        "probability": 28
+      },
+      {
+        "name": "ZuluTroll2",
+        "maxCount": 1,
+        "probability": 14
+      },
+      {
+        "name": "ZuluTrollchief",
+        "maxCount": 1,
+        "probability": 14
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "0ba4ffc1-30b7-5d4b-8b1d-253885ae342a",
+    "name": "Zulu Spawner (SHAME_5)",
+    "location": [
+      5578,
+      194,
+      0
+    ],
+    "map": "Felucca",
+    "count": 8,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 10,
+    "walkingRange": 10,
+    "entries": [
+      {
+        "name": "ZuluBat",
+        "maxCount": 5,
+        "probability": 44
+      },
+      {
+        "name": "ZuluMongbat",
+        "maxCount": 5,
+        "probability": 44
+      },
+      {
+        "name": "ZuluDracula",
+        "maxCount": 1,
+        "probability": 11
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "b51d347b-742f-5f8e-aa38-574cc19b2a36",
+    "name": "Zulu Spawner (SHAME_6)",
+    "location": [
+      5821,
+      71,
+      0
+    ],
+    "map": "Felucca",
+    "count": 20,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 59,
+    "walkingRange": 59,
+    "entries": [
+      {
+        "name": "ZuluMagussoldier",
+        "maxCount": 22,
+        "probability": 75
+      },
+      {
+        "name": "ZuluMagusmountedsoldier",
+        "maxCount": 7,
+        "probability": 25
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "df18f3a0-cd00-57b1-8075-b7c5029eb934",
+    "name": "Zulu Spawner (SHAME_7)",
+    "location": [
+      5694,
+      65,
+      0
+    ],
+    "map": "Felucca",
+    "count": 20,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 57,
+    "walkingRange": 57,
+    "entries": [
+      {
+        "name": "ZuluMagusboneknight",
+        "maxCount": 16,
+        "probability": 56
+      },
+      {
+        "name": "ZuluMaguszombie",
+        "maxCount": 6,
+        "probability": 21
+      },
+      {
+        "name": "ZuluMagussoldier",
+        "maxCount": 2,
+        "probability": 8
+      },
+      {
+        "name": "ZuluMongbat",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "ZuluDireweaver",
+        "maxCount": 1,
+        "probability": 2
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "0890f143-b216-58eb-8d74-09d1d9ddc366",
+    "name": "Zulu Spawner (SHAME_8)",
+    "location": [
+      5714,
+      72,
+      0
+    ],
+    "map": "Felucca",
+    "count": 3,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 25,
+    "walkingRange": 25,
+    "entries": [
+      {
+        "name": "ZuluMagusscholar1",
+        "maxCount": 1,
+        "probability": 33
+      },
+      {
+        "name": "ZuluMagusscholar2",
+        "maxCount": 1,
+        "probability": 33
+      },
+      {
+        "name": "ZuluMagusscholar3",
+        "maxCount": 1,
+        "probability": 33
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "26eca14c-bd1d-551e-9983-373cc7f706ec",
+    "name": "Zulu Spawner (WRONG_1)",
+    "location": [
+      5830,
+      562,
+      0
+    ],
+    "map": "Felucca",
+    "count": 25,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 53,
+    "walkingRange": 53,
+    "entries": [
+      {
+        "name": "ZuluOrc1",
+        "maxCount": 27,
+        "probability": 74
+      },
+      {
+        "name": "ZuluOrc2",
+        "maxCount": 6,
+        "probability": 18
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "Snake",
+        "maxCount": 1,
+        "probability": 3
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "3ef42f74-52d7-5393-8a8a-4a8c86f62d0a",
+    "name": "Zulu Spawner (WRONG_2)",
+    "location": [
+      5827,
+      531,
+      0
+    ],
+    "map": "Felucca",
+    "count": 5,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 8,
+    "walkingRange": 8,
+    "entries": [
+      {
+        "name": "ZuluOrc2",
+        "maxCount": 5,
+        "probability": 66
+      },
+      {
+        "name": "ZuluOrc1",
+        "maxCount": 1,
+        "probability": 16
+      },
+      {
+        "name": "ZuluOrcmage",
+        "maxCount": 1,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "Snake",
+        "maxCount": 1,
+        "probability": 3
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "0252e6c2-2511-5383-8f6a-7edd8f408f57",
+    "name": "Zulu Spawner (WRONG_3)",
+    "location": [
+      5785,
+      524,
+      0
+    ],
+    "map": "Felucca",
+    "count": 3,
+    "minDelay": "01:00:00",
+    "maxDelay": "02:00:00",
+    "team": 0,
+    "homeRange": 10,
+    "walkingRange": 10,
+    "entries": [
+      {
+        "name": "ZuluOrc2",
+        "maxCount": 3,
+        "probability": 66
+      },
+      {
+        "name": "ZuluOrc1",
+        "maxCount": 1,
+        "probability": 16
+      },
+      {
+        "name": "ZuluOrcmage",
+        "maxCount": 1,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "Snake",
+        "maxCount": 1,
+        "probability": 3
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "87d84964-7773-5dec-9a26-97d6b4f6b204",
+    "name": "Zulu Spawner (WRONG_4)",
+    "location": [
+      5689,
+      547,
+      0
+    ],
+    "map": "Felucca",
+    "count": 20,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 51,
+    "walkingRange": 51,
+    "entries": [
+      {
+        "name": "ZuluZombie",
+        "maxCount": 2,
+        "probability": 9
+      },
+      {
+        "name": "ZuluHeadless",
+        "maxCount": 2,
+        "probability": 9
+      },
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 2,
+        "probability": 9
+      },
+      {
+        "name": "ZuluSkeleton2",
+        "maxCount": 2,
+        "probability": 9
+      },
+      {
+        "name": "ZuluBoneknight",
+        "maxCount": 2,
+        "probability": 9
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 2,
+        "probability": 9
+      },
+      {
+        "name": "ZuluShade",
+        "maxCount": 2,
+        "probability": 9
+      },
+      {
+        "name": "ZuluUndeadpirate",
+        "maxCount": 2,
+        "probability": 9
+      },
+      {
+        "name": "ZuluBewitchedbardiche",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBewitchedsword",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBewitchedarmor",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBewitchedgauntlets",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBewitchedspear",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBewitchedwarhammer",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluEvisceratedcarcass",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluTwistedanimation",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ca0f5544-0fa6-5f28-99ff-98c4e4522779",
+    "name": "Zulu Spawner (WRONG_5)",
+    "location": [
+      5686,
+      526,
+      0
+    ],
+    "map": "Felucca",
+    "count": 8,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 16,
+    "walkingRange": 16,
+    "entries": [
+      {
+        "name": "ZuluZombie",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluHeadless",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluSkeleton2",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBoneknight",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluShade",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBewitchedbardiche",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBewitchedsword",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBewitchedarmor",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBewitchedgauntlets",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBewitchedspear",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBewitchedwarhammer",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluGargoyle",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluEvisceratedcarcass",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluTwistedanimation",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluBewitchedpeasant",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluRottenundead",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "bec99d50-8238-5f53-89ce-35afd24d345a",
+    "name": "Zulu Spawner (WRONG_6)",
+    "location": [
+      5702,
+      638,
+      0
+    ],
+    "map": "Felucca",
+    "count": 8,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 16,
+    "walkingRange": 16,
+    "entries": [
+      {
+        "name": "ZuluUndeadcovetous1",
+        "maxCount": 3,
+        "probability": 27
+      },
+      {
+        "name": "ZuluUndeadcovetous2",
+        "maxCount": 3,
+        "probability": 27
+      },
+      {
+        "name": "ZuluUndeadcovetous3",
+        "maxCount": 3,
+        "probability": 27
+      },
+      {
+        "name": "ZuluImp",
+        "maxCount": 1,
+        "probability": 7
+      },
+      {
+        "name": "ZuluMinordaemon",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluFallenangel",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBlackcat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluMagehunter",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "a53760d8-bea0-5031-98a9-1c32e7ca44aa",
+    "name": "Zulu Spawner (COVETOUS_DUNG_1)",
+    "location": [
+      5445,
+      1889,
+      0
+    ],
+    "map": "Felucca",
+    "count": 30,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 61,
+    "walkingRange": 61,
+    "entries": [
+      {
+        "name": "ZuluOrc1",
+        "maxCount": 33,
+        "probability": 74
+      },
+      {
+        "name": "ZuluOrc2",
+        "maxCount": 8,
+        "probability": 18
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "Snake",
+        "maxCount": 1,
+        "probability": 3
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "d1f1161f-85e0-5d1c-b150-00779e54f253",
+    "name": "Zulu Spawner (COVETOUS_DUNG_2)",
+    "location": [
+      5493,
+      2001,
+      0
+    ],
+    "map": "Felucca",
+    "count": 30,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 100,
+    "walkingRange": 100,
+    "entries": [
+      {
+        "name": "ZuluOrc2",
+        "maxCount": 30,
+        "probability": 66
+      },
+      {
+        "name": "ZuluOrc1",
+        "maxCount": 7,
+        "probability": 16
+      },
+      {
+        "name": "ZuluOrcmage",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "Snake",
+        "maxCount": 1,
+        "probability": 3
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "3a426c11-36c6-503d-a6db-e96f395e9fc4",
+    "name": "Zulu Spawner (COVETOUS_DUNG_3)",
+    "location": [
+      5580,
+      1874,
+      0
+    ],
+    "map": "Felucca",
+    "count": 30,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 52,
+    "walkingRange": 52,
+    "entries": [
+      {
+        "name": "ZuluUndeadcovetous1",
+        "maxCount": 34,
+        "probability": 76
+      },
+      {
+        "name": "ZuluUndeadcovetous3",
+        "maxCount": 6,
+        "probability": 15
+      },
+      {
+        "name": "ZuluBlackcat",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluImp",
+        "maxCount": 1,
+        "probability": 3
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "9e249baf-db7a-5869-958b-8606eb45607c",
+    "name": "Zulu Spawner (COVETOUS_DUNG_5)",
+    "location": [
+      5442,
+      1812,
+      0
+    ],
+    "map": "Felucca",
+    "count": 8,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 46,
+    "walkingRange": 46,
+    "entries": [
+      {
+        "name": "ZuluUndeadcovetous1",
+        "maxCount": 3,
+        "probability": 27
+      },
+      {
+        "name": "ZuluUndeadcovetous2",
+        "maxCount": 3,
+        "probability": 27
+      },
+      {
+        "name": "ZuluUndeadcovetous3",
+        "maxCount": 3,
+        "probability": 27
+      },
+      {
+        "name": "ZuluImp",
+        "maxCount": 1,
+        "probability": 7
+      },
+      {
+        "name": "ZuluMinordaemon",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluFallenangel",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBlackcat",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluMagehunter",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "5f6f6a60-45a7-5c2c-96d6-b933a2f8acb4",
+    "name": "Zulu Spawner (ICE_1)",
+    "location": [
+      5848,
+      230,
+      0
+    ],
+    "map": "Felucca",
+    "count": 15,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 42,
+    "walkingRange": 42,
+    "entries": [
+      {
+        "name": "ZuluFrostspider",
+        "maxCount": 6,
+        "probability": 28
+      },
+      {
+        "name": "ZuluIcespawn",
+        "maxCount": 3,
+        "probability": 14
+      },
+      {
+        "name": "ZuluSnowelemental",
+        "maxCount": 3,
+        "probability": 14
+      },
+      {
+        "name": "ZuluFrostgargoyle",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluFrostwolf",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluFrostgazer",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluIcefiend",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluFrostdrake",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluCarnivoresnowworm",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluMountainlion",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluPolar",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluSnowabomination",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluTwistedanimation",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFrostdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "Llama",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIceostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "5f31ad6b-96cd-5dc7-9581-493f70b306d3",
+    "name": "Zulu Spawner (ICE_2)",
+    "location": [
+      5831,
+      358,
+      0
+    ],
+    "map": "Felucca",
+    "count": 10,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 27,
+    "walkingRange": 27,
+    "entries": [
+      {
+        "name": "ZuluFrostspider",
+        "maxCount": 4,
+        "probability": 28
+      },
+      {
+        "name": "ZuluIcespawn",
+        "maxCount": 2,
+        "probability": 14
+      },
+      {
+        "name": "ZuluSnowelemental",
+        "maxCount": 2,
+        "probability": 14
+      },
+      {
+        "name": "ZuluFrostgargoyle",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluFrostwolf",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluFrostgazer",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluIcefiend",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluFrostdrake",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluCarnivoresnowworm",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluMountainlion",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluPolar",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluSnowabomination",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluTwistedanimation",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFrostdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "Llama",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIceostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "4d11c7f1-fff9-519b-bebb-2bdbbb81f5d2",
+    "name": "Zulu Spawner (ICE_3)",
+    "location": [
+      5766,
+      156,
+      0
+    ],
+    "map": "Felucca",
+    "count": 20,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 100,
+    "walkingRange": 100,
+    "entries": [
+      {
+        "name": "ZuluFrostspider",
+        "maxCount": 8,
+        "probability": 28
+      },
+      {
+        "name": "ZuluIcespawn",
+        "maxCount": 4,
+        "probability": 14
+      },
+      {
+        "name": "ZuluSnowelemental",
+        "maxCount": 4,
+        "probability": 14
+      },
+      {
+        "name": "ZuluFrostgargoyle",
+        "maxCount": 2,
+        "probability": 8
+      },
+      {
+        "name": "ZuluFrostwolf",
+        "maxCount": 2,
+        "probability": 8
+      },
+      {
+        "name": "ZuluFrostgazer",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluIcefiend",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluFrostdrake",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluCarnivoresnowworm",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluMountainlion",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluPolar",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluSnowabomination",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluTwistedanimation",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFrostdragon",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "Llama",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIceostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "8a1c5cc6-d391-539e-8e90-328fcb4c737e",
+    "name": "Zulu Spawner (ICE_4)",
+    "location": [
+      5721,
+      183,
+      0
+    ],
+    "map": "Felucca",
+    "count": 15,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 63,
+    "walkingRange": 63,
+    "entries": [
+      {
+        "name": "ZuluFrostgazer",
+        "maxCount": 7,
+        "probability": 34
+      },
+      {
+        "name": "ZuluIcefiend",
+        "maxCount": 3,
+        "probability": 17
+      },
+      {
+        "name": "ZuluFrostdragon",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluFrostdrake",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluFrostspider",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluIcespawn",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluSnowelemental",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluSnowabomination",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluFrostgargoyle",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluEnchantedspellbook",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBluemare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIceostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "b5c83e21-95d1-52b3-b0ad-1a1df8f0e46e",
+    "name": "Zulu Spawner (ICE_5)",
+    "location": [
+      5673,
+      317,
+      0
+    ],
+    "map": "Felucca",
+    "count": 8,
+    "minDelay": "00:45:00",
+    "maxDelay": "01:30:00",
+    "team": 0,
+    "homeRange": 17,
+    "walkingRange": 17,
+    "entries": [
+      {
+        "name": "ZuluFrostgazer",
+        "maxCount": 4,
+        "probability": 34
+      },
+      {
+        "name": "ZuluIcefiend",
+        "maxCount": 2,
+        "probability": 17
+      },
+      {
+        "name": "ZuluFrostdragon",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluFrostdrake",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluFrostspider",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluIcespawn",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluSnowelemental",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluSnowabomination",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluFrostgargoyle",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluEnchantedspellbook",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluBluemare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluIceostard",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  }
+]

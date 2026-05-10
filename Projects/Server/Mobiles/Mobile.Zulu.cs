@@ -6,12 +6,29 @@ namespace Server
 {
     public partial class Mobile
     {
+        /// <summary>
+        /// Active Class defined for the player after calculation. Classes are calculated every equip/unequip, login, and whe skill increase. Or open Class/Skills Menu.
+        /// </summary>
         public ZuluClass ActiveZuluClass { get; set; }
+        /// <summary>
+        /// Active Class level defined for the player after calculation. Level are recalculated every equip/unequip, login and whe skill increased. Or open Class/Skills Menu.
+        /// </summary>
         public int ActiveZuluClassLevel { get; set; }
 
-        public double[] ActiveZuluModifiers { get; set; } = new double[Enum.GetValues<ZuluMod>().Length];
+
+        private static readonly int _zuluModCount = Enum.GetValues<ZuluMod>().Length;
+        /// <summary>
+        /// Active ZuluModifiers of the mobile. Calculated every equip/unequip, login, and when changes Level or Class. One item per ZuluMod in this list, acumulated if multiples sources of modifier.
+        /// </summary>
+        public double[] ActiveZuluModifiers { get; set; } = new double[_zuluModCount];
+        /// <summary>
+        /// Lists every ZuluModifier impacting ActiveZuluModifier of the players. Used just for understand why some value in ActiveZuluModifiers are this value. Breaks down every source totalizing this value.
+        /// </summary>
         public List<ZuluModifierSource> ZuluModifierSources { get; set; } = new List<ZuluModifierSource>();
 
+        /// <summary>
+        ///  Indicates that whenever it needed to use Modifiers for anything like Combat/useskill/craft/defend etc, it must be recalculated. This is used to improve performance and not recalculate everytime increase skill or every combat. Only when needed.
+        /// </summary>
         public bool isZuluDirty { get; set; } = true;
 
         public int z_Physical_DD { get; set; } = 0;
@@ -35,8 +52,8 @@ namespace Server
                 return;
 
             //Clean ActiveModifiers and List
-            ZuluModifierSources = new List<ZuluModifierSource>();
-            ActiveZuluModifiers = new double[Enum.GetValues<ZuluMod>().Length];
+            ZuluModifierSources.Clear();
+            Array.Clear(ActiveZuluModifiers);
 
             // Recalcula a Classe Ativa
             ZuluClassManager.CalculateAndSetClass(this);
@@ -50,7 +67,7 @@ namespace Server
                     var mods = classInfo.AccumulatedModifiers[ActiveZuluClassLevel];
                     foreach (var m in mods)
                     {
-                        AddZuluModifier(m.zuluMod, m.value, ZuluModifierSourceType.Classe);
+                        AddZuluModifier(m.zuluMod, m.value, ZuluModifierSourceType.Classe, ActiveZuluClass.ToString());
                     }
                 }
             }
@@ -60,11 +77,6 @@ namespace Server
                 ZuluMod.PhysicalDamageAmp,
                 GetBonusFromThreshold(this.Str, 0.050, 130.0, 0),
                 ZuluModifierSourceType.Stat, Stat.Str.ToString());
-
-            AddZuluModifier(
-                ZuluMod.ParryngChance,
-                GetBonusFromThreshold(this.Dex, 0.5, 100.0, 5),
-                ZuluModifierSourceType.Stat, Stat.Dex.ToString());
 
             AddZuluModifier(
                 ZuluMod.SpellAmplifier,
@@ -90,14 +102,14 @@ namespace Server
             // Calcular Modificadores de Equipamento
             foreach (var item in this.Items)
             {
-                if (item.Parent == this)
+                if (!item.IsEquippableLayer)
                 {
-                    for (int i = 0; i < item.ZuluModifiers.Length; i++)
-                    {
-                        AddZuluModifier((ZuluMod)i, item.ZuluModifiers[i], ZuluModifierSourceType.Equipment);
-                    }
+                    continue;
                 }
-
+                for (int i = 0; i < item.ZuluModifiers.Length; i++)
+                {
+                    AddZuluModifier((ZuluMod)i, item.ZuluModifiers[i], ZuluModifierSourceType.Equipment, item.GetType().Name);
+                }
             }
 
 
@@ -114,12 +126,19 @@ namespace Server
 
         public double GetZuluModifier(ZuluMod mod)
         {
-            double value = ActiveZuluModifiers[(int)mod];
+            RecalculateZuluModifiers();
+            var cfg = ZuluModManager.GetMod(mod);
+            var value = ActiveZuluModifiers[(int)mod];
 
-            if (value > ZuluModManager.GetMod(mod).MaxCap)
-                value = ZuluModManager.GetMod(mod).MaxCap;
-            else if (value < ZuluModManager.GetMod(mod).MinCap)
-                value = ZuluModManager.GetMod(mod).MinCap;
+            if (value > cfg.MaxCap)
+            {
+                return cfg.MaxCap;
+            }
+
+            if (value < cfg.MinCap)
+            {
+                return cfg.MinCap;
+            }
 
             return value;
         }

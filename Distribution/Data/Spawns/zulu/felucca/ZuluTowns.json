@@ -1,0 +1,2488 @@
+[
+  {
+    "type": "Spawner",
+    "guid": "bf13cd2a-7ad1-56fa-b91e-f8858eb917dd",
+    "name": "Zulu Spawner (Britain)",
+    "location": [
+      1543,
+      1682,
+      0
+    ],
+    "map": "Felucca",
+    "count": 100,
+    "minDelay": "00:50:00",
+    "maxDelay": "01:40:00",
+    "team": 0,
+    "homeRange": 150,
+    "walkingRange": 150,
+    "entries": [
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 100,
+        "probability": 100
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 100,
+        "probability": 100
+      },
+      {
+        "name": "Raven",
+        "maxCount": 100,
+        "probability": 100
+      },
+      {
+        "name": "Crow",
+        "maxCount": 100,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton2",
+        "maxCount": 100,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 100,
+        "probability": 100
+      },
+      {
+        "name": "Bird",
+        "maxCount": 100,
+        "probability": 100
+      },
+      {
+        "name": "ZuluZombie",
+        "maxCount": 100,
+        "probability": 100
+      },
+      {
+        "name": "ZuluHeadless",
+        "maxCount": 100,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 75,
+        "probability": 75
+      },
+      {
+        "name": "Vulture",
+        "maxCount": 75,
+        "probability": 75
+      },
+      {
+        "name": "Rat",
+        "maxCount": 75,
+        "probability": 75
+      },
+      {
+        "name": "ZuluSpider",
+        "maxCount": 50,
+        "probability": 50
+      },
+      {
+        "name": "Snake",
+        "maxCount": 50,
+        "probability": 50
+      },
+      {
+        "name": "ZuluRottenundead",
+        "maxCount": 40,
+        "probability": 40
+      },
+      {
+        "name": "ZuluGiantserpent",
+        "maxCount": 30,
+        "probability": 30
+      },
+      {
+        "name": "ZuluWolf",
+        "maxCount": 25,
+        "probability": 25
+      },
+      {
+        "name": "ZuluBlackcat",
+        "maxCount": 25,
+        "probability": 25
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 25,
+        "probability": 25
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 20,
+        "probability": 20
+      },
+      {
+        "name": "ZuluScorp",
+        "maxCount": 20,
+        "probability": 20
+      },
+      {
+        "name": "ZuluMongbat",
+        "maxCount": 20,
+        "probability": 20
+      },
+      {
+        "name": "ZuluOphidianwarrior",
+        "maxCount": 20,
+        "probability": 20
+      },
+      {
+        "name": "ZuluEttin",
+        "maxCount": 20,
+        "probability": 20
+      },
+      {
+        "name": "ZuluEttin2",
+        "maxCount": 20,
+        "probability": 20
+      },
+      {
+        "name": "ZuluSlime",
+        "maxCount": 15,
+        "probability": 15
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 15,
+        "probability": 15
+      },
+      {
+        "name": "ZuluPanther",
+        "maxCount": 15,
+        "probability": 15
+      },
+      {
+        "name": "ZuluCyclops",
+        "maxCount": 10,
+        "probability": 10
+      },
+      {
+        "name": "BullFrog",
+        "maxCount": 10,
+        "probability": 10
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 10,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 10,
+        "probability": 10
+      },
+      {
+        "name": "ZuluCorpser",
+        "maxCount": 10,
+        "probability": 10
+      },
+      {
+        "name": "ZuluReaper",
+        "maxCount": 10,
+        "probability": 10
+      },
+      {
+        "name": "ZuluImp",
+        "maxCount": 10,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 10,
+        "probability": 10
+      },
+      {
+        "name": "Cat",
+        "maxCount": 10,
+        "probability": 10
+      },
+      {
+        "name": "Chicken",
+        "maxCount": 10,
+        "probability": 10
+      },
+      {
+        "name": "ZuluTitan",
+        "maxCount": 10,
+        "probability": 10
+      },
+      {
+        "name": "ZuluFlamingspider",
+        "maxCount": 5,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 5,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 5,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 5,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 5,
+        "probability": 5
+      },
+      {
+        "name": "Pig",
+        "maxCount": 5,
+        "probability": 5
+      },
+      {
+        "name": "Sheep",
+        "maxCount": 5,
+        "probability": 5
+      },
+      {
+        "name": "Sheep",
+        "maxCount": 5,
+        "probability": 5
+      },
+      {
+        "name": "Goat",
+        "maxCount": 4,
+        "probability": 4
+      },
+      {
+        "name": "PackHorse",
+        "maxCount": 3,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLiche",
+        "maxCount": 3,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBlackbear",
+        "maxCount": 2,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 2,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 2,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 2,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 2,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 2,
+        "probability": 2
+      },
+      {
+        "name": "ZuluGrizzly",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyhorse",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyhorse",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyostard",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFetidmonster",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGazer",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "0b94136e-518c-5919-836b-77547f4cdf6a",
+    "name": "Zulu Spawner (BRITAIN_CEM_1)",
+    "location": [
+      1362,
+      1467,
+      0
+    ],
+    "map": "Felucca",
+    "count": 20,
+    "minDelay": "00:50:00",
+    "maxDelay": "01:40:00",
+    "team": 0,
+    "homeRange": 26,
+    "walkingRange": 26,
+    "entries": [
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 20,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton2",
+        "maxCount": 17,
+        "probability": 88
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 11,
+        "probability": 55
+      },
+      {
+        "name": "ZuluHeadless",
+        "maxCount": 11,
+        "probability": 55
+      },
+      {
+        "name": "ZuluMongbat",
+        "maxCount": 8,
+        "probability": 44
+      },
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 8,
+        "probability": 44
+      },
+      {
+        "name": "ZuluZombie",
+        "maxCount": 6,
+        "probability": 33
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 4,
+        "probability": 22
+      },
+      {
+        "name": "ZuluRottenundead",
+        "maxCount": 2,
+        "probability": 11
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 2,
+        "probability": 11
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluLiche",
+        "maxCount": 1,
+        "probability": 2
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "67b8e111-712f-5a6f-8186-2af6483a63b6",
+    "name": "Zulu Spawner (Cove)",
+    "location": [
+      2245,
+      1188,
+      0
+    ],
+    "map": "Felucca",
+    "count": 10,
+    "minDelay": "00:15:00",
+    "maxDelay": "00:30:00",
+    "team": 0,
+    "homeRange": 44,
+    "walkingRange": 44,
+    "entries": [
+      {
+        "name": "Bird",
+        "maxCount": 10,
+        "probability": 100
+      },
+      {
+        "name": "Rat",
+        "maxCount": 7,
+        "probability": 75
+      },
+      {
+        "name": "Chicken",
+        "maxCount": 3,
+        "probability": 30
+      },
+      {
+        "name": "Dog",
+        "maxCount": 2,
+        "probability": 20
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 1,
+        "probability": 15
+      },
+      {
+        "name": "Pig",
+        "maxCount": 1,
+        "probability": 15
+      },
+      {
+        "name": "Cat",
+        "maxCount": 1,
+        "probability": 10
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "61a2dbb1-c237-59ca-bff7-dcde389d96dc",
+    "name": "Zulu Spawner (COVE_CEM_1)",
+    "location": [
+      2438,
+      1100,
+      0
+    ],
+    "map": "Felucca",
+    "count": 10,
+    "minDelay": "00:50:00",
+    "maxDelay": "01:40:00",
+    "team": 0,
+    "homeRange": 18,
+    "walkingRange": 18,
+    "entries": [
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 10,
+        "probability": 100
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 6,
+        "probability": 66
+      },
+      {
+        "name": "Crow",
+        "maxCount": 3,
+        "probability": 33
+      },
+      {
+        "name": "ZuluSkeleton2",
+        "maxCount": 3,
+        "probability": 33
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 3,
+        "probability": 33
+      },
+      {
+        "name": "ZuluZombie",
+        "maxCount": 3,
+        "probability": 33
+      },
+      {
+        "name": "ZuluHeadless",
+        "maxCount": 3,
+        "probability": 33
+      },
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 2,
+        "probability": 25
+      },
+      {
+        "name": "Vulture",
+        "maxCount": 2,
+        "probability": 25
+      },
+      {
+        "name": "Rat",
+        "maxCount": 2,
+        "probability": 25
+      },
+      {
+        "name": "ZuluSpider",
+        "maxCount": 1,
+        "probability": 16
+      },
+      {
+        "name": "Snake",
+        "maxCount": 1,
+        "probability": 16
+      },
+      {
+        "name": "ZuluRottenundead",
+        "maxCount": 1,
+        "probability": 13
+      },
+      {
+        "name": "ZuluGiantserpent",
+        "maxCount": 1,
+        "probability": 10
+      },
+      {
+        "name": "ZuluBlackcat",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 1,
+        "probability": 8
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluMongbat",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluMagehunter",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluSlime",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluCorpser",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluImp",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluFlamingspider",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDracula",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluLiche",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFetidmonster",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGazer",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "424ec2c6-7321-5510-ade6-5cd2616201bd",
+    "name": "Zulu Spawner (COVE_CEM_2)",
+    "location": [
+      2176,
+      1361,
+      0
+    ],
+    "map": "Felucca",
+    "count": 20,
+    "minDelay": "00:20:00",
+    "maxDelay": "00:40:00",
+    "team": 0,
+    "homeRange": 36,
+    "walkingRange": 36,
+    "entries": [
+      {
+        "name": "ZuluOrc1",
+        "maxCount": 20,
+        "probability": 100
+      },
+      {
+        "name": "ZuluOrc2",
+        "maxCount": 11,
+        "probability": 55
+      },
+      {
+        "name": "ZuluOrcmage",
+        "maxCount": 11,
+        "probability": 55
+      },
+      {
+        "name": "ZuluHuntingorc",
+        "maxCount": 8,
+        "probability": 44
+      },
+      {
+        "name": "ZuluOrcleader",
+        "maxCount": 2,
+        "probability": 11
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "fa70d7be-0ec7-5870-af27-7e15057846ed",
+    "name": "Zulu Spawner (Minoc)",
+    "location": [
+      2479,
+      490,
+      0
+    ],
+    "map": "Felucca",
+    "count": 80,
+    "minDelay": "00:15:00",
+    "maxDelay": "00:30:00",
+    "team": 0,
+    "homeRange": 100,
+    "walkingRange": 100,
+    "entries": [
+      {
+        "name": "Bird",
+        "maxCount": 80,
+        "probability": 100
+      },
+      {
+        "name": "Rat",
+        "maxCount": 60,
+        "probability": 75
+      },
+      {
+        "name": "Chicken",
+        "maxCount": 24,
+        "probability": 30
+      },
+      {
+        "name": "Dog",
+        "maxCount": 16,
+        "probability": 20
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 12,
+        "probability": 15
+      },
+      {
+        "name": "Pig",
+        "maxCount": 12,
+        "probability": 15
+      },
+      {
+        "name": "Cat",
+        "maxCount": 8,
+        "probability": 10
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "b90b9fb9-9905-5950-8d30-fc18175b7fb4",
+    "name": "Zulu Spawner (MINOC_GATE)",
+    "location": [
+      2701,
+      692,
+      0
+    ],
+    "map": "Felucca",
+    "count": 3,
+    "minDelay": "00:50:00",
+    "maxDelay": "01:40:00",
+    "team": 0,
+    "homeRange": 26,
+    "walkingRange": 26,
+    "entries": [
+      {
+        "name": "ZuluTroll1",
+        "maxCount": 3,
+        "probability": 100
+      },
+      {
+        "name": "ZuluTroll2",
+        "maxCount": 1,
+        "probability": 30
+      },
+      {
+        "name": "ZuluForesttroll",
+        "maxCount": 1,
+        "probability": 20
+      },
+      {
+        "name": "ZuluTroll3",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "3191702d-8425-57c9-93fe-55b8bfaba13f",
+    "name": "Zulu Spawner (Moonglow)",
+    "location": [
+      4482,
+      1192,
+      0
+    ],
+    "map": "Felucca",
+    "count": 40,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 150,
+    "walkingRange": 150,
+    "entries": [
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "Raven",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "Crow",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton2",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "Bird",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "ZuluZombie",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "ZuluHeadless",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 30,
+        "probability": 75
+      },
+      {
+        "name": "Vulture",
+        "maxCount": 30,
+        "probability": 75
+      },
+      {
+        "name": "Rat",
+        "maxCount": 30,
+        "probability": 75
+      },
+      {
+        "name": "ZuluSpider",
+        "maxCount": 20,
+        "probability": 50
+      },
+      {
+        "name": "Snake",
+        "maxCount": 20,
+        "probability": 50
+      },
+      {
+        "name": "ZuluRottenundead",
+        "maxCount": 16,
+        "probability": 40
+      },
+      {
+        "name": "ZuluGiantserpent",
+        "maxCount": 12,
+        "probability": 30
+      },
+      {
+        "name": "ZuluWolf",
+        "maxCount": 10,
+        "probability": 25
+      },
+      {
+        "name": "ZuluBlackcat",
+        "maxCount": 10,
+        "probability": 25
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 10,
+        "probability": 25
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 8,
+        "probability": 20
+      },
+      {
+        "name": "ZuluScorp",
+        "maxCount": 8,
+        "probability": 20
+      },
+      {
+        "name": "ZuluMongbat",
+        "maxCount": 8,
+        "probability": 20
+      },
+      {
+        "name": "ZuluOphidianwarrior",
+        "maxCount": 8,
+        "probability": 20
+      },
+      {
+        "name": "ZuluEttin",
+        "maxCount": 8,
+        "probability": 20
+      },
+      {
+        "name": "ZuluEttin2",
+        "maxCount": 8,
+        "probability": 20
+      },
+      {
+        "name": "ZuluSlime",
+        "maxCount": 6,
+        "probability": 15
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 6,
+        "probability": 15
+      },
+      {
+        "name": "ZuluPanther",
+        "maxCount": 6,
+        "probability": 15
+      },
+      {
+        "name": "ZuluCyclops",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "BullFrog",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluCorpser",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluReaper",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluImp",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "Cat",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "Chicken",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluTitan",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluFlamingspider",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Pig",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Sheep",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Sheep",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Goat",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "PackHorse",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLiche",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBlackbear",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluGrizzly",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyhorse",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyhorse",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyostard",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFetidmonster",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGazer",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "70968f1f-778e-5446-849a-abf16ba6896e",
+    "name": "Zulu Spawner (Skara)",
+    "location": [
+      703,
+      2224,
+      0
+    ],
+    "map": "Felucca",
+    "count": 40,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 107,
+    "walkingRange": 107,
+    "entries": [
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "Raven",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "Crow",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton2",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "Bird",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "ZuluZombie",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "ZuluHeadless",
+        "maxCount": 40,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 30,
+        "probability": 75
+      },
+      {
+        "name": "Vulture",
+        "maxCount": 30,
+        "probability": 75
+      },
+      {
+        "name": "Rat",
+        "maxCount": 30,
+        "probability": 75
+      },
+      {
+        "name": "ZuluSpider",
+        "maxCount": 20,
+        "probability": 50
+      },
+      {
+        "name": "Snake",
+        "maxCount": 20,
+        "probability": 50
+      },
+      {
+        "name": "ZuluRottenundead",
+        "maxCount": 16,
+        "probability": 40
+      },
+      {
+        "name": "ZuluGiantserpent",
+        "maxCount": 12,
+        "probability": 30
+      },
+      {
+        "name": "ZuluWolf",
+        "maxCount": 10,
+        "probability": 25
+      },
+      {
+        "name": "ZuluBlackcat",
+        "maxCount": 10,
+        "probability": 25
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 10,
+        "probability": 25
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 8,
+        "probability": 20
+      },
+      {
+        "name": "ZuluScorp",
+        "maxCount": 8,
+        "probability": 20
+      },
+      {
+        "name": "ZuluMongbat",
+        "maxCount": 8,
+        "probability": 20
+      },
+      {
+        "name": "ZuluOphidianwarrior",
+        "maxCount": 8,
+        "probability": 20
+      },
+      {
+        "name": "ZuluEttin",
+        "maxCount": 8,
+        "probability": 20
+      },
+      {
+        "name": "ZuluEttin2",
+        "maxCount": 8,
+        "probability": 20
+      },
+      {
+        "name": "ZuluSlime",
+        "maxCount": 6,
+        "probability": 15
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 6,
+        "probability": 15
+      },
+      {
+        "name": "ZuluPanther",
+        "maxCount": 6,
+        "probability": 15
+      },
+      {
+        "name": "ZuluCyclops",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "BullFrog",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluCorpser",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluReaper",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluImp",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "Cat",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "Chicken",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluTitan",
+        "maxCount": 4,
+        "probability": 10
+      },
+      {
+        "name": "ZuluFlamingspider",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Pig",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Sheep",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Sheep",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Goat",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "PackHorse",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLiche",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBlackbear",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluGrizzly",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyhorse",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyhorse",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyostard",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFetidmonster",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGazer",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "225628d4-779f-5957-b3a8-be16218ccfb8",
+    "name": "Zulu Spawner (Trinsic)",
+    "location": [
+      1981,
+      2764,
+      0
+    ],
+    "map": "Felucca",
+    "count": 50,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 128,
+    "walkingRange": 128,
+    "entries": [
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 50,
+        "probability": 100
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 50,
+        "probability": 100
+      },
+      {
+        "name": "Raven",
+        "maxCount": 50,
+        "probability": 100
+      },
+      {
+        "name": "Crow",
+        "maxCount": 50,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton2",
+        "maxCount": 50,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 50,
+        "probability": 100
+      },
+      {
+        "name": "Bird",
+        "maxCount": 50,
+        "probability": 100
+      },
+      {
+        "name": "ZuluZombie",
+        "maxCount": 50,
+        "probability": 100
+      },
+      {
+        "name": "ZuluHeadless",
+        "maxCount": 50,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 37,
+        "probability": 75
+      },
+      {
+        "name": "Vulture",
+        "maxCount": 37,
+        "probability": 75
+      },
+      {
+        "name": "Rat",
+        "maxCount": 37,
+        "probability": 75
+      },
+      {
+        "name": "ZuluSpider",
+        "maxCount": 25,
+        "probability": 50
+      },
+      {
+        "name": "Snake",
+        "maxCount": 25,
+        "probability": 50
+      },
+      {
+        "name": "ZuluRottenundead",
+        "maxCount": 20,
+        "probability": 40
+      },
+      {
+        "name": "ZuluGiantserpent",
+        "maxCount": 15,
+        "probability": 30
+      },
+      {
+        "name": "ZuluWolf",
+        "maxCount": 12,
+        "probability": 25
+      },
+      {
+        "name": "ZuluBlackcat",
+        "maxCount": 12,
+        "probability": 25
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 12,
+        "probability": 25
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 10,
+        "probability": 20
+      },
+      {
+        "name": "ZuluScorp",
+        "maxCount": 10,
+        "probability": 20
+      },
+      {
+        "name": "ZuluMongbat",
+        "maxCount": 10,
+        "probability": 20
+      },
+      {
+        "name": "ZuluOphidianwarrior",
+        "maxCount": 10,
+        "probability": 20
+      },
+      {
+        "name": "ZuluEttin",
+        "maxCount": 10,
+        "probability": 20
+      },
+      {
+        "name": "ZuluEttin2",
+        "maxCount": 10,
+        "probability": 20
+      },
+      {
+        "name": "ZuluSlime",
+        "maxCount": 7,
+        "probability": 15
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 7,
+        "probability": 15
+      },
+      {
+        "name": "ZuluPanther",
+        "maxCount": 7,
+        "probability": 15
+      },
+      {
+        "name": "ZuluCyclops",
+        "maxCount": 5,
+        "probability": 10
+      },
+      {
+        "name": "BullFrog",
+        "maxCount": 5,
+        "probability": 10
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 5,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 5,
+        "probability": 10
+      },
+      {
+        "name": "ZuluCorpser",
+        "maxCount": 5,
+        "probability": 10
+      },
+      {
+        "name": "ZuluReaper",
+        "maxCount": 5,
+        "probability": 10
+      },
+      {
+        "name": "ZuluImp",
+        "maxCount": 5,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 5,
+        "probability": 10
+      },
+      {
+        "name": "Cat",
+        "maxCount": 5,
+        "probability": 10
+      },
+      {
+        "name": "Chicken",
+        "maxCount": 5,
+        "probability": 10
+      },
+      {
+        "name": "ZuluTitan",
+        "maxCount": 5,
+        "probability": 10
+      },
+      {
+        "name": "ZuluFlamingspider",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Pig",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Sheep",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Sheep",
+        "maxCount": 2,
+        "probability": 5
+      },
+      {
+        "name": "Goat",
+        "maxCount": 2,
+        "probability": 4
+      },
+      {
+        "name": "PackHorse",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLiche",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBlackbear",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluGrizzly",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyhorse",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyhorse",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyostard",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFetidmonster",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGazer",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "75549cd2-2932-519e-a870-91d2c783d159",
+    "name": "Zulu Spawner (Vesper)",
+    "location": [
+      2928,
+      829,
+      0
+    ],
+    "map": "Felucca",
+    "count": 70,
+    "minDelay": "00:50:00",
+    "maxDelay": "01:40:00",
+    "team": 0,
+    "homeRange": 150,
+    "walkingRange": 150,
+    "entries": [
+      {
+        "name": "Bird",
+        "maxCount": 70,
+        "probability": 100
+      },
+      {
+        "name": "Rat",
+        "maxCount": 52,
+        "probability": 75
+      },
+      {
+        "name": "Chicken",
+        "maxCount": 21,
+        "probability": 30
+      },
+      {
+        "name": "Dog",
+        "maxCount": 14,
+        "probability": 20
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 10,
+        "probability": 15
+      },
+      {
+        "name": "Pig",
+        "maxCount": 10,
+        "probability": 15
+      },
+      {
+        "name": "Cat",
+        "maxCount": 7,
+        "probability": 10
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "eaea65f2-d313-54d1-bd14-fb9cb4461e4b",
+    "name": "Zulu Spawner (VESPER_CEM_1)",
+    "location": [
+      2755,
+      866,
+      0
+    ],
+    "map": "Felucca",
+    "count": 30,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 28,
+    "walkingRange": 28,
+    "entries": [
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 30,
+        "probability": 100
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 19,
+        "probability": 66
+      },
+      {
+        "name": "Crow",
+        "maxCount": 9,
+        "probability": 33
+      },
+      {
+        "name": "ZuluSkeleton2",
+        "maxCount": 9,
+        "probability": 33
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 9,
+        "probability": 33
+      },
+      {
+        "name": "ZuluZombie",
+        "maxCount": 9,
+        "probability": 33
+      },
+      {
+        "name": "ZuluHeadless",
+        "maxCount": 9,
+        "probability": 33
+      },
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 7,
+        "probability": 25
+      },
+      {
+        "name": "Vulture",
+        "maxCount": 7,
+        "probability": 25
+      },
+      {
+        "name": "Rat",
+        "maxCount": 7,
+        "probability": 25
+      },
+      {
+        "name": "ZuluSpider",
+        "maxCount": 4,
+        "probability": 16
+      },
+      {
+        "name": "Snake",
+        "maxCount": 4,
+        "probability": 16
+      },
+      {
+        "name": "ZuluRottenundead",
+        "maxCount": 3,
+        "probability": 13
+      },
+      {
+        "name": "ZuluGiantserpent",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "ZuluBlackcat",
+        "maxCount": 2,
+        "probability": 8
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 2,
+        "probability": 8
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluMongbat",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluMagehunter",
+        "maxCount": 1,
+        "probability": 6
+      },
+      {
+        "name": "ZuluSlime",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluCorpser",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluImp",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluFlamingspider",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluDracula",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluLiche",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFetidmonster",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGazer",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "24ca20fe-a680-5429-9868-1028eece4118",
+    "name": "Zulu Spawner (VESPER_CID_1)",
+    "location": [
+      2928,
+      829,
+      0
+    ],
+    "map": "Felucca",
+    "count": 50,
+    "minDelay": "00:50:00",
+    "maxDelay": "01:40:00",
+    "team": 0,
+    "homeRange": 150,
+    "walkingRange": 150,
+    "entries": [
+      {
+        "name": "Bird",
+        "maxCount": 50,
+        "probability": 100
+      },
+      {
+        "name": "Rat",
+        "maxCount": 37,
+        "probability": 75
+      },
+      {
+        "name": "Chicken",
+        "maxCount": 15,
+        "probability": 30
+      },
+      {
+        "name": "Dog",
+        "maxCount": 10,
+        "probability": 20
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 7,
+        "probability": 15
+      },
+      {
+        "name": "Pig",
+        "maxCount": 7,
+        "probability": 15
+      },
+      {
+        "name": "Cat",
+        "maxCount": 5,
+        "probability": 10
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ecdd3070-32ad-5d71-8465-46742bd2afcc",
+    "name": "Zulu Spawner (Yew)",
+    "location": [
+      568,
+      1021,
+      0
+    ],
+    "map": "Felucca",
+    "count": 30,
+    "minDelay": "00:30:00",
+    "maxDelay": "01:00:00",
+    "team": 0,
+    "homeRange": 150,
+    "walkingRange": 150,
+    "entries": [
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 30,
+        "probability": 100
+      },
+      {
+        "name": "ZuluBat",
+        "maxCount": 30,
+        "probability": 100
+      },
+      {
+        "name": "Raven",
+        "maxCount": 30,
+        "probability": 100
+      },
+      {
+        "name": "Crow",
+        "maxCount": 30,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton2",
+        "maxCount": 30,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 30,
+        "probability": 100
+      },
+      {
+        "name": "Bird",
+        "maxCount": 30,
+        "probability": 100
+      },
+      {
+        "name": "ZuluZombie",
+        "maxCount": 30,
+        "probability": 100
+      },
+      {
+        "name": "ZuluHeadless",
+        "maxCount": 30,
+        "probability": 100
+      },
+      {
+        "name": "ZuluSkeleton",
+        "maxCount": 22,
+        "probability": 75
+      },
+      {
+        "name": "Vulture",
+        "maxCount": 22,
+        "probability": 75
+      },
+      {
+        "name": "Rat",
+        "maxCount": 22,
+        "probability": 75
+      },
+      {
+        "name": "ZuluSpider",
+        "maxCount": 15,
+        "probability": 50
+      },
+      {
+        "name": "Snake",
+        "maxCount": 15,
+        "probability": 50
+      },
+      {
+        "name": "ZuluRottenundead",
+        "maxCount": 12,
+        "probability": 40
+      },
+      {
+        "name": "ZuluGiantserpent",
+        "maxCount": 9,
+        "probability": 30
+      },
+      {
+        "name": "ZuluWolf",
+        "maxCount": 7,
+        "probability": 25
+      },
+      {
+        "name": "ZuluBlackcat",
+        "maxCount": 7,
+        "probability": 25
+      },
+      {
+        "name": "ZuluWraith",
+        "maxCount": 7,
+        "probability": 25
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 6,
+        "probability": 20
+      },
+      {
+        "name": "ZuluScorp",
+        "maxCount": 6,
+        "probability": 20
+      },
+      {
+        "name": "ZuluMongbat",
+        "maxCount": 6,
+        "probability": 20
+      },
+      {
+        "name": "ZuluOphidianwarrior",
+        "maxCount": 6,
+        "probability": 20
+      },
+      {
+        "name": "ZuluEttin",
+        "maxCount": 6,
+        "probability": 20
+      },
+      {
+        "name": "ZuluEttin2",
+        "maxCount": 6,
+        "probability": 20
+      },
+      {
+        "name": "ZuluSlime",
+        "maxCount": 4,
+        "probability": 15
+      },
+      {
+        "name": "Rabbit",
+        "maxCount": 4,
+        "probability": 15
+      },
+      {
+        "name": "ZuluPanther",
+        "maxCount": 4,
+        "probability": 15
+      },
+      {
+        "name": "ZuluCyclops",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "BullFrog",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "ZuluSkeleton3",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGrat",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "ZuluCorpser",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "ZuluReaper",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "ZuluImp",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "Cat",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "Chicken",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "ZuluTitan",
+        "maxCount": 3,
+        "probability": 10
+      },
+      {
+        "name": "ZuluFlamingspider",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "Horse",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "Pig",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "Sheep",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "Sheep",
+        "maxCount": 1,
+        "probability": 5
+      },
+      {
+        "name": "Goat",
+        "maxCount": 1,
+        "probability": 4
+      },
+      {
+        "name": "PackHorse",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluLiche",
+        "maxCount": 1,
+        "probability": 3
+      },
+      {
+        "name": "ZuluBlackbear",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluOphidianshaman",
+        "maxCount": 1,
+        "probability": 2
+      },
+      {
+        "name": "ZuluGrizzly",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyhorse",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyhorse",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhostlyostard",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluNightmare",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluFetidmonster",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGhost",
+        "maxCount": 1,
+        "probability": 1
+      },
+      {
+        "name": "ZuluGazer",
+        "maxCount": 1,
+        "probability": 1
+      }
+    ]
+  }
+]

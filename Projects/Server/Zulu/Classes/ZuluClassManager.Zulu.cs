@@ -468,8 +468,11 @@ null, // LEVEL 0
 ]
 );
 
-
+        OnClassesInitialized?.Invoke(_classes);
     }
+
+    public static Action<ZuluClassInfo[]> OnClassesInitialized { get; set; }
+    public static Action<Mobile> OnClassChanged { get; set; }
 
     private static void OnSetClassCommand(CommandEventArgs e)
     {
@@ -592,15 +595,54 @@ null, // LEVEL 0
 
     public static ZuluClassInfo GetInfo(ZuluClass classe) => _classes[(int)classe];
 
+    #region zulu mod - class progress exposure
+    public static (int CurrentPoints, int NextThreshold) GetClassProgress(Mobile m)
+    {
+        if (m == null || m.ActiveZuluClass == ZuluClass.NonClass || m.ActiveZuluClassLevel >= 6)
+            return (0, 0);
+
+        var info = _classes[(int)m.ActiveZuluClass];
+        if (info == null)
+            return (0, 0);
+
+        int current = 0;
+        foreach (var skill in info.RequiredSkills)
+        {
+            current += (int)(m.Skills[skill]?.Base ?? 0);
+        }
+
+        int currentLevel = m.ActiveZuluClassLevel;
+        int next = 0;
+        foreach (var rule in ClassLevels)
+        {
+            if (rule.Level == currentLevel + 1)
+            {
+                next = (int)rule.MinPoints;
+                break;
+            }
+        }
+
+        return (current, next);
+    }
+    #endregion
+
     public static void CalculateAndSetClass(Mobile m)
     {
         if (m == null || !m.Player)
             return;
 
+        var oldClass = m.ActiveZuluClass;
+        var oldLevel = m.ActiveZuluClassLevel;
+
         if (m.SkillsTotal < 6000 || m.SkillsTotal > 13200)
         {
             m.ActiveZuluClass = ZuluClass.NonClass;
             m.ActiveZuluClassLevel = 0;
+
+            if (oldClass != m.ActiveZuluClass || oldLevel != m.ActiveZuluClassLevel)
+            {
+                OnClassChanged?.Invoke(m);
+            }
             return;
         }
 
@@ -628,6 +670,11 @@ null, // LEVEL 0
                 }
 
             }
+        }
+
+        if (oldClass != m.ActiveZuluClass || oldLevel != m.ActiveZuluClassLevel)
+        {
+            OnClassChanged?.Invoke(m);
         }
     }
 }

@@ -317,8 +317,16 @@ public partial class SpecialFishingNet : Item
             spawn.Combatant = from;
         }
 
+        // #region ##zulu mod — Zulu Hotel fishing net shell drop hook
+        ZuluOnNetFinished(from);
+        // #endregion
+
         Delete();
     }
+
+    // #region ##zulu mod — partial hook implemented in SpecialFishingNet.Zulu.cs
+    partial void ZuluOnNetFinished(Mobile from);
+    // #endregion
 
     public static bool FullValidation(Map map, int x, int y)
     {

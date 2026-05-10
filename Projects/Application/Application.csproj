@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <ApplicationIcon>MUO.ico</ApplicationIcon>
@@ -27,5 +27,6 @@
         <ProjectReference Include="..\UOContent\UOContent.csproj" Private="false" PrivateAssets="All" IncludeAssets="None">
             <IncludeInPackage>false</IncludeInPackage>
         </ProjectReference>
+        <PackageReference Include="MailKit" Version="4.15.2" />
     </ItemGroup>
 </Project>

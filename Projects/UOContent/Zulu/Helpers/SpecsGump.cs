@@ -70,55 +70,31 @@ public class SpecsGump : ZuluGump
             m_Mobile.Hits = int.Parse(info.GetTextEntry(1004));
             m_Mobile.Frozen = bool.Parse(info.GetTextEntry(1005));
 
-            foreach (var item in ZuluModManager.GetCombatMods())
-            {
-                var text = info.GetTextEntry((int)item);
-                if (int.TryParse(text, out int value))
-                {
-                    m_Mobile.ActiveZuluModifiers[(int)item] = value;
-                }
-            }
-            foreach (var item in ZuluModManager.GetSpecialMods())
-            {
-                var text = info.GetTextEntry((int)item);
-                if (int.TryParse(text, out int value))
-                {
-                    m_Mobile.ActiveZuluModifiers[(int)item] = value;
-                }
-            }
-            foreach (var item in ZuluModManager.GetProtectionsMods())
-            {
-                var text = info.GetTextEntry((int)item);
-                if (int.TryParse(text, out int value))
-                {
-                    m_Mobile.ActiveZuluModifiers[(int)item] = value;
-                }
-            }
+            ApplyModEntries(info, ZuluModManager.GetCombatMods());
+            ApplyModEntries(info, ZuluModManager.GetSpecialMods());
+            ApplyModEntries(info, ZuluModManager.GetProtectionsMods());
+            ApplyModEntries(info, ZuluModManager.GetMobsMods());
+            ApplyModEntries(info, ZuluModManager.GetMagicalMods());
+        }
 
-            foreach (var item in ZuluModManager.GetMobsMods())
-            {
-                var text = info.GetTextEntry((int)item);
-                if (int.TryParse(text, out int value))
-                {
-                    m_Mobile.ActiveZuluModifiers[(int)item] = value;
-                }
-            }
+    }
 
-            foreach (var item in ZuluModManager.GetMagicalMods())
+    private void ApplyModEntries(RelayInfo info, IEnumerable<ZuluMod> mods)
+    {
+        foreach (var mod in mods)
+        {
+            var text = info.GetTextEntry((int)mod);
+            if (int.TryParse(text, out int value) && value != 0)
             {
-                var text = info.GetTextEntry((int)item);
-                if (int.TryParse(text, out int value))
-                {
-                    m_Mobile.ActiveZuluModifiers[(int)item] = value;
-                }
+                m_Mobile.AddZuluModifier(mod, value, ZuluModifierSourceType.None, "SpecsGump");
             }
         }
-    
     }
 
     public SpecsGump(Mobile m) : base(20, 30)
     {
         m_Mobile = m;
+        m_Mobile.RecalculateZuluModifiers();
 
         AddPage(0);
 
@@ -128,8 +104,8 @@ public class SpecsGump : ZuluGump
         AddButton(startPageX + 10, startPageY - 18, 2093, 2093, 10);
 
         //TITULO
-        AddBackground(startPageX + 75, startPageY - 10, 150, 24, 9300);
-        AddLabelHtml(startPageX + 75, startPageY - 8, 150, 24, "Specs Helper", "#363638", 5, true);
+        AddBackground(startPageX + 60, startPageY - 10, 180, 26, 9300);
+        AddLabelHtml(startPageX + 60, startPageY - 8, 180, 22, "Specs Helper", "#4A2E0A", 5, true);
 
         //Footer
         AddLabelHtml(startPageX + 320, startPageY + 700, 150, 24, "ZuluHotel New Age", "#363638", 4, true);

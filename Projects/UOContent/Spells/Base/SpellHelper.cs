@@ -60,7 +60,7 @@ namespace Server.Spells
         TeleportTo
     }
 
-    public static class SpellHelper
+    public static partial class SpellHelper
     {
         private static readonly TimeSpan AosDamageDelay = TimeSpan.FromSeconds(1.25);
         private static readonly TimeSpan OldDamageDelay = TimeSpan.FromSeconds(0.5);
@@ -1034,7 +1034,10 @@ namespace Server.Spells
 
                 StaminaSystem.DFA = dfa;
 
-                var damageGiven = AOS.Damage(target, from, dmg, phys, fire, cold, pois, nrgy, chaos);
+                #region ##zulu mod — route spell damage through Zulu element resistance system
+                // var damageGiven = AOS.Damage(target, from, dmg, phys, fire, cold, pois, nrgy, chaos);
+                var damageGiven = ZuluApplySpellDamage(from, target, dmg, phys, fire, cold, pois, nrgy, chaos);
+                #endregion
                 Mysticism.SpellPlagueSpell.OnMobileDamaged(target);
 
                 StaminaSystem.DFA = DFAlgorithm.Standard;

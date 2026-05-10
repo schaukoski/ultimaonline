@@ -1,3 +1,4 @@
+using ModernUO.Serialization;
 using Server.Collections;
 using Server.Engines.MLQuests.Definitions;
 using Server.Engines.Virtues;
@@ -18,6 +19,14 @@ namespace Server.Items
 {
     public abstract partial class BaseWeapon
     {
+        public bool CanEquipZulu(Mobile from) => ZuluClassRestrictions.IsEquipAllowed(from, this);
+
+        [SerializableProperty(31)]
+        public int ZuluMaterialId { get; set; }
+
+        [SerializableProperty(32)]
+        public string ZuluMaterialName { get; set; }
+
         public virtual bool CheckHitZulu(Mobile attacker, Mobile defender)
         {
             var atkWeapon = attacker.Weapon as BaseWeapon;
@@ -162,14 +171,14 @@ namespace Server.Items
         {
             if (wielder is BaseCreature bc)
             {
-                phys = bc.z_Physical_DD / 100 * damage;
-                fire = bc.z_Fire_DD / 100 * damage;
-                water = bc.z_Water_DD / 100 * damage;
-                pois = bc.z_Poison_DD / 100 * damage;
-                air = bc.z_Air_DD / 100 * damage;
-                necro = bc.z_Necro_DD / 100 * damage;
-                holly = bc.z_Holly_DD / 100 * damage;
-                earth = bc.z_Earth_DD / 100 * damage;
+                phys = (int)(bc.z_Physical_DD / 100.0 * damage);
+                fire = (int)(bc.z_Fire_DD / 100.0 * damage);
+                water = (int)(bc.z_Water_DD / 100.0 * damage);
+                pois = (int)(bc.z_Poison_DD / 100.0 * damage);
+                air = (int)(bc.z_Air_DD / 100.0 * damage);
+                necro = (int)(bc.z_Necro_DD / 100.0 * damage);
+                holly = (int)(bc.z_Holly_DD / 100.0 * damage);
+                earth = (int)(bc.z_Earth_DD / 100.0 * damage);
             }
             else
             {
@@ -274,10 +283,14 @@ namespace Server.Items
                 damageGiven += appliedDamage;
                 ZuluModManager.SendDamageTakenOverHeadMessage(ZuluMod.EarthProtection, appliedDamage, attacker, defender, appliedDamage == 0);
             }
-            
 
-            if (defender?.Deleted != false || !defender.Alive || damageGiven <= 0)
-                defender.Damage(damageGiven, attacker);
+
+            if (defender == null || defender.Deleted || !defender.Alive || damageGiven <= 0)
+            {
+                return 0;
+            }
+
+            defender.Damage(damageGiven, attacker);
 
             return damageGiven;
 

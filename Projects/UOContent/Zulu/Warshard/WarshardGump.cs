@@ -40,21 +40,29 @@ public class WarshardGump : ZuluGump
     {
         base.OnResponse(sender, info);
 
-        switch (info.ButtonID)
+        if (info.ButtonID is >= 1 and <= 7)
         {
-            case 1: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Mage, info.Switches[0]); break;
-            case 2: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Warrior, info.Switches[0]); break;
-            case 3: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Ranger, info.Switches[0]); break;
-            case 4: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Bard, info.Switches[0]); break;
-            case 5: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Crafter, info.Switches[0]); break;
-            case 6: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Thief, info.Switches[0]); break;
-            case 7: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Necromancer, info.Switches[0]); break;
+            if (info.Switches.Length == 0)
+            {
+                sender.Mobile.SendMessage("You must select a level before choosing a class.");
+                return;
+            }
 
-            default:
-                break;
+            int level = info.Switches[0];
+            switch (info.ButtonID)
+            {
+                case 1: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Mage, level); break;
+                case 2: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Warrior, level); break;
+                case 3: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Ranger, level); break;
+                case 4: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Bard, level); break;
+                case 5: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Crafter, level); break;
+                case 6: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Thief, level); break;
+                case 7: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Necromancer, level); break;
+            }
+
+            sender.Mobile.isZuluDirty = true;
+            ZuluClassManager.ShowClassMessage(sender.Mobile);
         }
-
-        ZuluClassManager.ShowClassMessage(sender.Mobile);
     }
 
     public WarshardGump(Mobile m, int type) : base(20, 30)
@@ -71,12 +79,14 @@ public class WarshardGump : ZuluGump
         //AddLabelHtml(220, startPageY + 420, 200, 40, "ZuluHotel New Age", "#FFFFFF", 3, true);
         AddButton(startPageX + 10, startPageY - 18, 2093, 2093, 10);
 
+        // ##zulu mod: unified title style — Animal Lore color + geometry
         //AddBackground(startPageX + 75, startPageY - 10, 150, 24, 9300);
-        AddBackground(startPageX + 75, startPageY - 10, 150, 24, 9300);
+        AddBackground(startPageX + 60, startPageY - 10, 180, 26, 9300);
 
         ///9300
         ///9308
-        AddLabelHtml(startPageX+75, startPageY-8, 150, 24, "Warshard", "#363638", 5, true);
+        //AddLabelHtml(startPageX+75, startPageY-8, 150, 24, "Warshard", "#363638", 5, true);
+        AddLabelHtml(startPageX + 60, startPageY - 8, 180, 22, "Warshard", "#4A2E0A", 5, true);
 
         AddLabelHtml(startPageX + 75, startPageY +420, 150, 24, "ZuluHotel New Age", "#363638", 4, true);
 

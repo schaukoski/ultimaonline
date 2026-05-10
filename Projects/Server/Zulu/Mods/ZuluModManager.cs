@@ -54,8 +54,16 @@ public enum ZuluMod
     FencingProtection,
     WrestlingProtection,
     RangedProtection,
+    MagicImmunityCircle,
+    DexPenaltyReduction,
 
+}
 
+public static class ZuluModInfo
+{
+    private static readonly HashSet<ZuluMod> _hidden = [ZuluMod.DexPenaltyReduction];
+
+    public static bool IsHidden(ZuluMod mod) => _hidden.Contains(mod);
 }
 
 public enum ZuluElement
@@ -67,6 +75,7 @@ public enum ZuluElement
     Poison,
     Holly,
     Earth,
+    Phys,
  }
 
 public enum ZuluModCalcType
@@ -105,6 +114,7 @@ public static class ZuluModManager
         _elementConfigs[(int)ZuluElement.Poison] = new ZuluElementConfigs { Name = "Poison", Hue = 1162 };
         _elementConfigs[(int)ZuluElement.Holly] = new ZuluElementConfigs { Name = "Holly", Hue = 1156 };
         _elementConfigs[(int)ZuluElement.Earth] = new ZuluElementConfigs { Name = "Earth", Hue = 1538 };
+        _elementConfigs[(int)ZuluElement.Phys] = new ZuluElementConfigs { Name = "Phys", Hue = 36 };
 
         _modConfigs = new ZuluModConfigs[Enum.GetValues<ZuluMod>().Length];
 
@@ -116,7 +126,7 @@ public static class ZuluModManager
             MaxCap = 100,
             Description_PtBR = "Reduz o dano recebido de ataques do elemento Ar.",
             Description_EnUS = "Reduces damage taken from Air element attacks.",
-            OverheadStyle = "Air",
+            OverheadStyle = "{0} [Air]",
             CalculateType = ZuluModCalcType.Percent,
             Hue = _elementConfigs[(int)ZuluElement.Air].Hue,
         };
@@ -128,7 +138,7 @@ public static class ZuluModManager
             MaxCap = 100,
             Description_PtBR = "Reduz o dano recebido de ataques do elemento Necro.",
             Description_EnUS = "Reduces damage taken from Necro element attacks.",
-            OverheadStyle = "Necro",
+            OverheadStyle = "{0} [Necro]",
             CalculateType = ZuluModCalcType.Percent,
             Hue = _elementConfigs[(int)ZuluElement.Necro].Hue
         };
@@ -140,7 +150,7 @@ public static class ZuluModManager
             MaxCap = 100,
             Description_PtBR = "Reduz o dano recebido de ataques do elemento Fogo.",
             Description_EnUS = "Reduces damage taken from Fire element attacks.",
-            OverheadStyle = "Fire",
+            OverheadStyle = "{0} [Fire]",
             CalculateType = ZuluModCalcType.Percent,
             Hue = _elementConfigs[(int)ZuluElement.Fire].Hue
         };
@@ -152,7 +162,7 @@ public static class ZuluModManager
             MaxCap = 100,
             Description_PtBR = "Reduz o dano recebido de ataques do elemento Água.",
             Description_EnUS = "Reduces damage taken from Water element attacks.",
-            OverheadStyle = "Water",
+            OverheadStyle = "{0} [Water]",
             CalculateType = ZuluModCalcType.Percent,
             Hue = _elementConfigs[(int)ZuluElement.Water].Hue
         };
@@ -164,7 +174,7 @@ public static class ZuluModManager
             MaxCap = 100,
             Description_PtBR = "Reduz o dano recebido de ataques do elemento Veneno.",
             Description_EnUS = "Reduces damage taken from Poison element attacks.",
-            OverheadStyle = "Poison",
+            OverheadStyle = "{0} [Poison]",
             CalculateType = ZuluModCalcType.Percent,
             Hue = _elementConfigs[(int)ZuluElement.Poison].Hue
         };
@@ -176,7 +186,7 @@ public static class ZuluModManager
             MaxCap = 100,
             Description_PtBR = "Reduz o dano recebido de ataques do elemento Sagrado.",
             Description_EnUS = "Reduces damage taken from Holly element attacks.",
-            OverheadStyle = "Holly",
+            OverheadStyle = "{0} [Holly]",
             CalculateType = ZuluModCalcType.Percent,
             Hue = _elementConfigs[(int)ZuluElement.Holly].Hue
         };
@@ -188,7 +198,7 @@ public static class ZuluModManager
             MaxCap = 100,
             Description_PtBR = "Reduz o dano recebido de ataques do elemento Terra.",
             Description_EnUS = "Reduces damage taken from Earth element attacks.",
-            OverheadStyle = "Earth",
+            OverheadStyle = "{0} [Earth]",
             CalculateType = ZuluModCalcType.Percent,
             Hue = _elementConfigs[(int)ZuluElement.Earth].Hue
         };
@@ -319,21 +329,25 @@ public static class ZuluModManager
             Hue = 12 // Define a hue for spell protection if needed
         };
 
+        #region zulu mod - correção Physical Damage Amp (Percent) + renomeio FixedPhysicalDamageAmp
+        // Original: Name = "Physical Damage Amplifier", CalculateType = ZuluModCalcType.Fixed
+        // Código em BaseWeapon.Zulu.cs divide por 100 → é percentual.
         _modConfigs[(int)ZuluMod.PhysicalDamageAmp] = new ZuluModConfigs
         {
-            Name = "Physical Damage Amplifier",
+            Name = "Physical Damage",
             MinCap = -1000,
             MaxCap = 9999,
             Description_PtBR = "Aumenta o dano físico causado por ataques.",
             Description_EnUS = "Increases physical damage dealt by attacks.",
             OverheadStyle = "{0}",
-            CalculateType = ZuluModCalcType.Fixed,
+            CalculateType = ZuluModCalcType.Percent,
             Hue = 32 // Red
         };
 
+        // Original Name duplicava "Physical Damage Amplifier" — renomeado para distinguir do percentual.
         _modConfigs[(int)ZuluMod.FixedPhysicalDamageAmp] = new ZuluModConfigs
         {
-            Name = "Physical Damage Amplifier",
+            Name = "Weapon Damage",
             MinCap = -1000,
             MaxCap = 100,
             Description_PtBR = "Adiciona valor fixo ao dano físico causado por ataques.",
@@ -342,6 +356,7 @@ public static class ZuluModManager
             CalculateType = ZuluModCalcType.Fixed,
             Hue = 934 // Silver
         };
+        #endregion
 
         _modConfigs[(int)ZuluMod.CleaveDamage] = new ZuluModConfigs
         {
@@ -553,7 +568,7 @@ public static class ZuluModManager
 
         _modConfigs[(int)ZuluMod.PhysicalDamageReflection] = new ZuluModConfigs
         {
-            Name = "Physical Damage Reflection",
+            Name = "Physical Reflection Dmg",
             MinCap = 0,
             MaxCap = 35,
             Description_PtBR = "Reflete uma porcentagem do dano físico recebido de volta para o atacante.",
@@ -586,7 +601,7 @@ public static class ZuluModManager
             MaxCap = 75,
             Description_PtBR = "Aumenta a chance de aparar ataques corpo a corpo, usando Escudo.",
             Description_EnUS = "Increases the chance to parry melee attacks, using Shield.",
-            OverheadStyle = "Parrying Chance",
+            OverheadStyle = "[Parried]",
             CalculateType = ZuluModCalcType.Percent,
             Hue = SpecialModHue
         };
@@ -604,19 +619,6 @@ public static class ZuluModManager
         };
 
 
-        _modConfigs[(int)ZuluMod.SpellDamageReflection] = new ZuluModConfigs
-        {
-            Name = "Spell Damage Reflection",
-            MinCap = 0,
-            MaxCap = 35,
-            Description_PtBR = "Reflete uma porcentagem do dano magico recebido de volta para o atacante.",
-            Description_PtBR_SecondLine = "Não funciona para Classe Warrior",
-            Description_EnUS = "Reflects a percentage of spell damage taken back to the attacker.",
-            Description_EnUS_SecondLine = "Does not work for Warrior Class.",
-            OverheadStyle = "Damage Reflected",
-            CalculateType = ZuluModCalcType.Percent,
-            Hue = SpecialModHue
-        };
 
         #endregion
 
@@ -710,6 +712,32 @@ public static class ZuluModManager
             Hue = SpecialModHue,
         };
 
+        _modConfigs[(int)ZuluMod.MagicImmunityCircle] = new ZuluModConfigs
+        {
+            Name = "Magic Immunity Circle",
+            MinCap = 0,
+            MaxCap = 8,
+            Description_PtBR = "Imune a todas as magias de Magery de círculo igual ou inferior a este valor (1-8).",
+            Description_EnUS = "Immune to all Magery spells of circle equal to or lower than this value (1-8).",
+            OverheadStyle = "MagicImmune",
+            CalculateType = ZuluModCalcType.Fixed,
+            Hue = SpecialModHue,
+        };
+
+        #endregion
+
+        #region Hidden / Material-Only Modifiers
+        _modConfigs[(int)ZuluMod.DexPenaltyReduction] = new ZuluModConfigs
+        {
+            Name = "Dex Penalty Reduction",
+            MinCap = 0,
+            MaxCap = 100,
+            Description_PtBR = "Reduz a penalidade de Dex aplicada por armaduras.",
+            Description_EnUS = "Reduces the dex penalty imposed by armor.",
+            OverheadStyle = "DexPenaltyRed",
+            CalculateType = ZuluModCalcType.Percent,
+            Hue = 0,
+        };
         #endregion
 
         //PENTS
@@ -737,7 +765,6 @@ public static class ZuluModManager
             ZuluMod.Evasion,
             ZuluMod.FixedPhysicalDamageAmp,
             ZuluMod.PhysicalDamageAmp,
-            ZuluMod.PhysicalDamageReflection,
         ];
 
         return result;
@@ -795,6 +822,7 @@ public static class ZuluModManager
             ZuluMod.SillenceChance,
             ZuluMod.HealingBonus,
             ZuluMod.FreeAction,
+            ZuluMod.PhysicalDamageReflection,
         ];
 
         return result;
@@ -830,22 +858,20 @@ public static class ZuluModManager
 
         if (imune)
         {
-            defender.PrivateOverheadMessage(
+            defender.PublicOverheadMessage(
                 MessageType.Regular,
                 GetMod(type).Hue,
                 true,
-                $"[{GetMod(type).OverheadStyle} Immune]",
-                attacker.NetState
+                $"[{GetMod(type).OverheadStyle} Immune]"
             );
         }
         else
         {
-            defender.PrivateOverheadMessage(
+            defender.PublicOverheadMessage(
                 MessageType.Regular,
                 GetMod(type).Hue,
                 true,
-                string.Format(GetMod(type).OverheadStyle, valorEmTxt),
-                attacker.NetState
+                string.Format(GetMod(type).OverheadStyle, valorEmTxt)
             );
         }
     }
@@ -915,6 +941,18 @@ public sealed class ZuluModConfigs
 
     public string Description_EnUS { get; set; }
     public string Description_EnUS_SecondLine { get; set; }
+
+    #region zulu mod - idiomas adicionais
+    public string Description_EsES { get; set; }
+    public string Description_EsES_SecondLine { get; set; }
+    public string Description_SvSE { get; set; }
+    public string Description_SvSE_SecondLine { get; set; }
+    public string Description_RuRU { get; set; }
+    public string Description_RuRU_SecondLine { get; set; }
+    public string Description_ItIT { get; set; }
+    public string Description_ItIT_SecondLine { get; set; }
+    #endregion
+
     public string OverheadStyle { get; set; }
     public ZuluModCalcType CalculateType { get; set; }
     public int Hue { get; set; }
