@@ -815,7 +815,13 @@ public partial class Item : IHued, IComparable<Item>, ISpawnable, IObjectPropert
 
     public virtual void Serialize(IGenericWriter writer)
     {
-        writer.Write(9); // version
+        writer.Write(10); // version
+
+        writer.WriteEncodedInt(ZuluModifiers.Length);
+        for (int i = 0; i < ZuluModifiers.Length; i++)
+        {
+            writer.Write(ZuluModifiers[i]);
+        }
 
         var flags = SaveFlag.None;
 
@@ -2589,6 +2595,17 @@ public partial class Item : IHued, IComparable<Item>, ISpawnable, IObjectPropert
 
         switch (version)
         {
+            case 10: // ZuluHotelModifiers
+                {
+                    int length = reader.ReadEncodedInt();
+                    Array.Clear(ZuluModifiers, 0, ZuluModifiers.Length);
+
+                    for (int i = 0; i < length; i++)
+                    {
+                        ZuluModifiers[i] = reader.ReadDouble();
+                    }
+                    goto case 9;
+                }
             case 9:
             case 8:
             case 7:

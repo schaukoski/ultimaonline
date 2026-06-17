@@ -912,9 +912,25 @@ public abstract partial class BaseWeapon
                 }
             }
 
+            #region ##zulu mod
+            // attacker.RecalculateZuluModifiers();
+            // defender.RecalculateZuluModifiers();
+            #endregion
+
             if (CheckHit(attacker, defender))
             {
-                OnHit(attacker, defender, damageBonus);
+                #region ##zulu mod
+                // double evasion = defender.ActiveZuluModifiers[(int)ZuluMod.Evasion];
+                double evasion = defender.GetZuluModifier(ZuluMod.Evasion);
+                #endregion
+                if (evasion != 0 && Utility.RandomDouble() < (evasion/100))
+                {
+                    
+                    OnMiss(attacker, defender);
+                    ZuluModManager.SendDamageTakenOverHeadMessage(ZuluMod.Evasion, 0, attacker, defender);
+                }
+                else
+                    OnHit(attacker, defender, damageBonus);
             }
             else
             {
@@ -1045,6 +1061,14 @@ public abstract partial class BaseWeapon
         {
             return false;
         }
+
+        #region ##zulu mod - class equip restrictions
+        if (!CanEquipZulu(from))
+        {
+            from.SendMessage("Your class forbids you from wielding this item.");
+            return false;
+        }
+        #endregion
 
         if (from.Dex < DexRequirement)
         {
@@ -1234,6 +1258,9 @@ public abstract partial class BaseWeapon
 
     public virtual bool CheckHit(Mobile attacker, Mobile defender)
     {
+        //Zulu
+        return CheckHitZulu(attacker, defender);
+        
         var atkWeapon = attacker.Weapon as BaseWeapon;
         var defWeapon = defender.Weapon as BaseWeapon;
 
@@ -1744,6 +1771,11 @@ public abstract partial class BaseWeapon
 
     public virtual void OnHit(Mobile attacker, Mobile defender, double damageBonus = 1.0)
     {
+        #region ZULUHOTELNEWAGE
+        OnHitZulu(attacker, defender, damageBonus);
+        return;
+        #endregion
+
         if (MirrorImage.HasClone(defender) && defender.Skills.Ninjitsu.Value / 150.0 > Utility.RandomDouble())
         {
             foreach (var m in defender.GetMobilesInRange<Clone>(4))

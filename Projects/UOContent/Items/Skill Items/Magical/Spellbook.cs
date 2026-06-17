@@ -22,7 +22,10 @@ public enum SpellbookType
     Ninja,
     Samurai,
     Arcanist,
-    Mystic
+    Mystic,
+    #region ##zulu mod — EarthMagic spellbook type
+    EarthMagic
+    #endregion
 }
 
 public enum BookQuality
@@ -388,6 +391,13 @@ public partial class Spellbook : Item, ICraftable, ISlayer, IAosItem
             return SpellbookType.Mystic;
         }
 
+        #region ##zulu mod — Earth Magic spell ID range 750-765
+        if (spellID >= 750 && spellID < 766)
+        {
+            return SpellbookType.EarthMagic;
+        }
+        #endregion
+
         return SpellbookType.Invalid;
     }
 
@@ -500,8 +510,21 @@ public partial class Spellbook : Item, ICraftable, ISlayer, IAosItem
     public override bool AllowSecureTrade(Mobile from, Mobile to, Mobile newOwner, bool accepted) =>
         Ethic.CheckTrade(from, to, newOwner, this) && base.AllowSecureTrade(from, to, newOwner, accepted);
 
-    public override bool CanEquip(Mobile from) =>
-        Ethic.CheckEquip(from, this) && from.CanBeginAction<BaseWeapon>() && base.CanEquip(from);
+    public override bool CanEquip(Mobile from)
+    {
+        // ##zulu mod - class equip restrictions
+        //     public override bool CanEquip(Mobile from) =>
+        //         Ethic.CheckEquip(from, this) && from.CanBeginAction<BaseWeapon>() && base.CanEquip(from);
+        #region ##zulu mod - class equip restrictions
+        if (!CanEquipZulu(from))
+        {
+            from.SendMessage("Your class forbids you from wielding this item.");
+            return false;
+        }
+        #endregion
+
+        return Ethic.CheckEquip(from, this) && from.CanBeginAction<BaseWeapon>() && base.CanEquip(from);
+    }
 
     public override bool AllowEquippedCast(Mobile from) => true;
 
@@ -611,7 +634,10 @@ public partial class Spellbook : Item, ICraftable, ISlayer, IAosItem
         return spellID >= 0 && spellID < BookCount && (_content & ((ulong)1 << spellID)) != 0;
     }
 
-    public void DisplayTo(Mobile to)
+    #region ##zulu mod — virtual so EarthBook can override with a custom server-drawn gump
+    // public void DisplayTo(Mobile to)
+    public virtual void DisplayTo(Mobile to)
+    #endregion
     {
         // The client must know about the spellbook or it will crash!
         var ns = to.NetState;

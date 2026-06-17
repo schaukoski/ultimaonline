@@ -6,7 +6,10 @@ using Server.Spells;
 
 namespace Server.Engines.Harvest
 {
-    public class Fishing : HarvestSystem
+    // #region ##zulu mod — made partial so Fishing.Zulu.cs can add a shell-drop hook
+    // public class Fishing : HarvestSystem
+    public partial class Fishing : HarvestSystem
+    // #endregion
     {
         private static Fishing _system;
 
@@ -481,7 +484,15 @@ namespace Server.Engines.Harvest
             {
                 from.RevealingAction();
             }
+
+            // #region ##zulu mod — Zulu Hotel fishing shell drop hook
+            ZuluOnFishCaught(from, tool, harvested);
+            // #endregion
         }
+
+        // #region ##zulu mod — partial hook implemented in Fishing.Zulu.cs
+        partial void ZuluOnFishCaught(Mobile from, Item tool, object harvested);
+        // #endregion
 
         public override object GetLock(Mobile from, Item tool, HarvestDefinition def, object toHarvest) => this;
 

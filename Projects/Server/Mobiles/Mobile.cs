@@ -14,6 +14,7 @@
  *************************************************************************/
 
 using Server.Accounting;
+using Server.Buffers;
 using Server.Collections;
 using Server.ContextMenus;
 using Server.Guilds;
@@ -27,8 +28,8 @@ using Server.Prompts;
 using Server.Targeting;
 using System;
 using System.Collections.Generic;
+using System.Reflection.PortableExecutable;
 using System.Runtime.CompilerServices;
-using Server.Buffers;
 using CalcMoves = Server.Movement.Movement;
 
 namespace Server;
@@ -2314,7 +2315,25 @@ public partial class Mobile : IHued, IComparable<Mobile>, ISpawnable, IObjectPro
 
     public virtual void Serialize(IGenericWriter writer)
     {
-        writer.Write(37); // version
+        writer.Write(39); // version
+
+        writer.Write(38); // version
+
+        writer.Write(z_Air_DD);
+        writer.Write(z_Earth_DD);
+        writer.Write(z_Fire_DD);
+        writer.Write(z_Holly_DD);
+        writer.Write(z_Necro_DD);
+        writer.Write(z_Physical_DD);
+        writer.Write(z_Poison_DD);
+        writer.Write(z_Water_DD);
+
+        writer.WriteEncodedInt(ActiveZuluModifiers.Length);
+        for (int i = 0; i < ActiveZuluModifiers.Length; i++)
+        {
+            writer.Write(ActiveZuluModifiers[i]);
+        }
+
 
         writer.WriteDeltaTime(LastStrGain);
         writer.WriteDeltaTime(LastIntGain);
@@ -6129,7 +6148,30 @@ public partial class Mobile : IHued, IComparable<Mobile>, ISpawnable, IObjectPro
 
         switch (version)
         {
-            case 37: // Decomposed hair into inline item id/hue (dropped the VirtualHairInfo object)
+            case 39: // Decomposed hair into inline item id/hue (dropped the VirtualHairInfo object)
+            case 38: // Add Mob Damage Distribution
+                {
+                    z_Air_DD = reader.ReadInt();
+                    z_Earth_DD = reader.ReadInt();
+                    z_Fire_DD = reader.ReadInt();
+                    z_Holly_DD = reader.ReadInt();
+                    z_Necro_DD = reader.ReadInt();
+                    z_Physical_DD = reader.ReadInt();
+                    z_Poison_DD = reader.ReadInt();
+                    z_Water_DD = reader.ReadInt();
+                    goto case 37;
+                }
+            case 37: // Add ZuluModifierList
+                {
+                    int length = reader.ReadEncodedInt();
+                    Array.Clear(ActiveZuluModifiers, 0, ActiveZuluModifiers.Length);
+
+                    for (int i = 0; i < length; i++)
+                    {
+                        ActiveZuluModifiers[i] = reader.ReadDouble();
+                    }
+                    goto case 36;
+                }
             case 36: // Moved virtues to VirtueSystem
             case 35: // Moved short term murders to PlayerMurderSystem
             case 34: // Moved Stabled to PlayerMobile
@@ -6603,6 +6645,12 @@ public partial class Mobile : IHued, IComparable<Mobile>, ISpawnable, IObjectPro
     /// </summary>
     public virtual void OnItemAdded(Item item)
     {
+        #region ##zulu mod
+        if (item.IsEquippableLayer)
+        {
+            isZuluDirty = true;
+        }
+        #endregion
     }
 
     /// <summary>
@@ -6613,6 +6661,12 @@ public partial class Mobile : IHued, IComparable<Mobile>, ISpawnable, IObjectPro
     /// </summary>
     public virtual void OnItemRemoved(Item item)
     {
+        #region ##zulu mod
+        if (item.IsEquippableLayer)
+        {
+            isZuluDirty = true;
+        }
+        #endregion
     }
 
     /// <summary>

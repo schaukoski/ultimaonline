@@ -1125,6 +1125,14 @@ namespace Server.Items
                 return false;
             }
 
+            #region ##zulu mod - class equip restrictions
+            if (!CanEquipZulu(from))
+            {
+                from.SendMessage("Your class forbids you from wearing this item.");
+                return false;
+            }
+            #endregion
+
             int strBonus = ComputeStatBonus(StatType.Str), strReq = ComputeStatReq(StatType.Str);
             int dexBonus = ComputeStatBonus(StatType.Dex), dexReq = ComputeStatReq(StatType.Dex);
             int intBonus = ComputeStatBonus(StatType.Int), intReq = ComputeStatReq(StatType.Int);

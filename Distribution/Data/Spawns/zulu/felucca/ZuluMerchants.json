@@ -1,0 +1,4442 @@
+[
+  {
+    "type": "Spawner",
+    "guid": "de3208dc-05ee-5af0-8ff6-871e40ddb15d",
+    "name": "Zulu Merchant (Minoc: AnimalTrainer)",
+    "location": [
+      2521,
+      376,
+      23
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "AnimalTrainer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "bd6695dc-4e3b-563b-b31c-cb5734b3d868",
+    "name": "Zulu Merchant (Minoc: Barkeeper)",
+    "location": [
+      2462,
+      400,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Barkeeper",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "b5ae468e-f187-5d9e-abbb-0d77652532fe",
+    "name": "Zulu Merchant (Minoc: Waiter)",
+    "location": [
+      2471,
+      400,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Waiter",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "800f918f-de75-57d2-be11-ae53fb61ad2b",
+    "name": "Zulu Merchant (Minoc: InnKeeper)",
+    "location": [
+      2483,
+      401,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "InnKeeper",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "44a2305d-3dbc-5e74-9551-5c5626a92f0a",
+    "name": "Zulu Merchant (Minoc: Provisioner)",
+    "location": [
+      2457,
+      428,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Provisioner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "f712a12f-1f49-5075-8c76-9847fa77c2b8",
+    "name": "Zulu Merchant (Minoc: Vagabond)",
+    "location": [
+      2500,
+      385,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Vagabond",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "7667108e-db11-5e30-a3d0-81e0b816c5e0",
+    "name": "Zulu Merchant (Minoc: Butcher)",
+    "location": [
+      2435,
+      410,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Butcher",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "53132941-c206-5406-a40d-bbed4f93d547",
+    "name": "Zulu Merchant (Minoc: Architect)",
+    "location": [
+      2432,
+      437,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Architect",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "473f0ba7-1da0-5f81-afab-6b4e747458b9",
+    "name": "Zulu Merchant (Minoc: Carpenter)",
+    "location": [
+      2439,
+      437,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Carpenter",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "3fa45f7c-587b-5593-bd7f-4a34c9326879",
+    "name": "Zulu Merchant (Minoc: Miner)",
+    "location": [
+      2450,
+      428,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Miner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "5bc453c3-04dc-572a-9759-72001036f41e",
+    "name": "Zulu Merchant (Minoc: HairStylist)",
+    "location": [
+      2474,
+      427,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "HairStylist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "1c2130be-53e9-5fd9-a281-db8b8b3a1782",
+    "name": "Zulu Merchant (Minoc: HairStylist)",
+    "location": [
+      2483,
+      435,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "HairStylist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "f1a18798-89c8-5954-aff7-69628b38b8a5",
+    "name": "Zulu Merchant (Minoc: Jeweler)",
+    "location": [
+      2507,
+      430,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Jeweler",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "21c23301-029e-518a-a495-106ddd79168b",
+    "name": "Zulu Merchant (Minoc: Tinker)",
+    "location": [
+      2461,
+      452,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Tinker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "413da42b-2f54-5a61-948b-7a99c9fec9bc",
+    "name": "Zulu Merchant (Minoc: Tinker)",
+    "location": [
+      2461,
+      461,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Tinker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "7a6dccaa-a032-544b-bd21-d6cf546e6ced",
+    "name": "Zulu Merchant (Minoc: Jeweler)",
+    "location": [
+      2454,
+      494,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Jeweler",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "7b1f9a80-ae7c-5a4e-a580-08a230a72c73",
+    "name": "Zulu Merchant (Minoc: Herbalist)",
+    "location": [
+      2462,
+      486,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Herbalist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "bf6994e3-17f3-5669-9cf4-4ae461a52941",
+    "name": "Zulu Merchant (Minoc: Cook)",
+    "location": [
+      2445,
+      486,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Cook",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "a450fb9a-0b55-5044-8eea-2bb5b4a5a975",
+    "name": "Zulu Merchant (Minoc: Thief)",
+    "location": [
+      2457,
+      475,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Thief",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "90a5dff8-afe0-57a6-92a3-db3a1d8fe8a1",
+    "name": "Zulu Merchant (Minoc: Tailor)",
+    "location": [
+      2484,
+      474,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Tailor",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "02552d42-0f80-58d5-ad5d-275e92cdd730",
+    "name": "Zulu Merchant (Minoc: Tailor)",
+    "location": [
+      2492,
+      474,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Tailor",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "b1624d95-9b10-5e4d-855f-71c645f93f1f",
+    "name": "Zulu Merchant (Minoc: Carpenter)",
+    "location": [
+      2507,
+      477,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Carpenter",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "707b328e-c603-52be-9d5a-9b4319d0948f",
+    "name": "Zulu Merchant (Minoc: Carpenter)",
+    "location": [
+      2517,
+      476,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Carpenter",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "687a6ca2-d245-5b6e-9f88-eb3f8899db04",
+    "name": "Zulu Merchant (Minoc: Scribe)",
+    "location": [
+      2418,
+      523,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Scribe",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ec4fe2ed-c1ec-5538-b193-b7b95a54fda6",
+    "name": "Zulu Merchant (Minoc: Scribe)",
+    "location": [
+      2434,
+      530,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Scribe",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "849f21f5-2c3e-5d67-8f79-618062dfb10b",
+    "name": "Zulu Merchant (Minoc: Bard)",
+    "location": [
+      2428,
+      555,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Bard",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "241520ad-117d-5190-a5ae-3a4b14011264",
+    "name": "Zulu Merchant (Minoc: Blacksmith)",
+    "location": [
+      2475,
+      564,
+      5
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Blacksmith",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "c983d523-a309-52d0-a09c-450db58ecc06",
+    "name": "Zulu Merchant (Minoc: Blacksmith)",
+    "location": [
+      2468,
+      553,
+      5
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Blacksmith",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "fe802ff9-1f96-58b6-93f0-e70cc14c3030",
+    "name": "Zulu Merchant (Minoc: Banker)",
+    "location": [
+      2507,
+      545,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Banker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "32ef909f-065d-504f-b560-90fc7cdc93e2",
+    "name": "Zulu Merchant (Minoc: Banker)",
+    "location": [
+      2507,
+      556,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Banker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "24fe138a-f097-5690-8d17-316f280f9cb2",
+    "name": "Zulu Merchant (Minoc: Provisioner)",
+    "location": [
+      2496,
+      563,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Provisioner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "5a995212-285d-51c2-a0f9-3bc270b9025f",
+    "name": "Zulu Merchant (Minoc: LeatherWorker)",
+    "location": [
+      2522,
+      522,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "LeatherWorker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "f32b1a40-06b6-51e2-8d25-bdcf787b3c23",
+    "name": "Zulu Merchant (Minoc: LeatherWorker)",
+    "location": [
+      2523,
+      531,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "LeatherWorker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "294a1be2-d3d6-55ae-b6ae-51e32a8e7841",
+    "name": "Zulu Merchant (Minoc: Provisioner)",
+    "location": [
+      2527,
+      547,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Provisioner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "119c75f4-59d2-597c-9f2c-23ffa1b987a4",
+    "name": "Zulu Merchant (Minoc: Cobbler)",
+    "location": [
+      2533,
+      551,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Cobbler",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "8429ffee-c6c4-542e-87b5-fd101e5118e0",
+    "name": "Zulu Merchant (Minoc: Weaponsmith)",
+    "location": [
+      2525,
+      571,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Weaponsmith",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "c689bafb-fd2f-56e1-96eb-c52598b046f7",
+    "name": "Zulu Merchant (Minoc: Armorer)",
+    "location": [
+      2532,
+      574,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Armorer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "7bef0859-e42a-595b-8015-0323d0912b17",
+    "name": "Zulu Merchant (Minoc: Herbalist)",
+    "location": [
+      2572,
+      590,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Herbalist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "9b9f8a0e-5bd4-5766-a52a-aec698e44dcc",
+    "name": "Zulu Merchant (Minoc: ZuluHealerpk)",
+    "location": [
+      2581,
+      597,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "ZuluHealerpk",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "a981cbe0-6694-5635-a66e-a6cf9861e857",
+    "name": "Zulu Merchant (Minoc: Herbalist)",
+    "location": [
+      2593,
+      523,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Herbalist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "6570796e-b03b-5e11-a3c9-4b4d7469bf3b",
+    "name": "Zulu Merchant (Minoc: Fisherman)",
+    "location": [
+      2589,
+      536,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Fisherman",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "a9accede-0bf6-50a5-a9ed-9a47d6ef5391",
+    "name": "Zulu Merchant (Minoc: Blacksmith)",
+    "location": [
+      2564,
+      524,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Blacksmith",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "5a6e2f6a-2d1c-55ea-9a0f-3d70f7122f6e",
+    "name": "Zulu Merchant (Minoc: Miner)",
+    "location": [
+      2576,
+      533,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Miner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "75c1f6db-e3d8-5e07-bb02-105fb46f6066",
+    "name": "Zulu Merchant (Minoc: HolyMage)",
+    "location": [
+      2582,
+      520,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "HolyMage",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "91f495a3-754c-5f73-b65d-f565b07750e3",
+    "name": "Zulu Merchant (Cove: Banker)",
+    "location": [
+      2227,
+      1197,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Banker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "61baa1fb-890a-5497-9faa-b461fb033e41",
+    "name": "Zulu Merchant (Cove: Mapmaker)",
+    "location": [
+      2235,
+      1186,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Mapmaker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "137c1bd0-662b-5322-86c8-30588371b357",
+    "name": "Zulu Merchant (Cove: Fisherman)",
+    "location": [
+      2256,
+      1168,
+      -2
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Fisherman",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "b4b1c7bb-9408-5e83-a07a-d4506db5efb8",
+    "name": "Zulu Merchant (Cove: Herbalist)",
+    "location": [
+      2243,
+      1202,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Herbalist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "d27dccf0-55d0-5237-8b43-bfb661582ce6",
+    "name": "Zulu Merchant (Cove: Herbalist)",
+    "location": [
+      2241,
+      1229,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Herbalist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "156f6113-ae50-56ab-8260-3f6d089f751e",
+    "name": "Zulu Merchant (Cove: Mage)",
+    "location": [
+      2229,
+      1212,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Mage",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "067f927b-14f9-556b-a5c8-031e90db73a4",
+    "name": "Zulu Merchant (Cove: Alchemist)",
+    "location": [
+      2226,
+      1217,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Alchemist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "784f1460-2076-5a23-9b5d-d12a8057afe7",
+    "name": "Zulu Merchant (Cove: Provisioner)",
+    "location": [
+      2233,
+      1195,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Provisioner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "6b3b6ca4-ea84-5c9e-b677-6fd3debb03d4",
+    "name": "Zulu Merchant (Cove: Cook)",
+    "location": [
+      2215,
+      1188,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Cook",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "e63955eb-c7d7-53f5-95c1-1f5aba49139d",
+    "name": "Zulu Merchant (Cove: Butcher)",
+    "location": [
+      2214,
+      1195,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Butcher",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "5f41ef32-ad1c-58cf-be30-51825f40399f",
+    "name": "Zulu Merchant (Cove: Weaponsmith)",
+    "location": [
+      2212,
+      1166,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Weaponsmith",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "9f1277f5-cc83-52b9-8705-b370b5688811",
+    "name": "Zulu Merchant (Cove: LeatherWorker)",
+    "location": [
+      2218,
+      1167,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "LeatherWorker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ac8e1a11-0f45-5103-a721-b0236049c202",
+    "name": "Zulu Merchant (Cove: AnimalTrainer)",
+    "location": [
+      2209,
+      1178,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "AnimalTrainer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "8a3fdd90-37a4-581b-8a05-49e1adcfdcdf",
+    "name": "Zulu Merchant (Cove: Tailor)",
+    "location": [
+      2211,
+      1115,
+      20
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Tailor",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "9378ed30-c036-534b-ba45-07098389f0de",
+    "name": "Zulu Merchant (Cove: Cobbler)",
+    "location": [
+      2213,
+      1115,
+      40
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Cobbler",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "8db887ae-1d80-5c99-aca9-4e36ca3c9d95",
+    "name": "Zulu Merchant (Cove: Farmer)",
+    "location": [
+      2216,
+      1144,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Farmer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "415b822f-8166-588d-8b5d-ad91b564603c",
+    "name": "Zulu Merchant (Cove: Shipwright)",
+    "location": [
+      2259,
+      1219,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Shipwright",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "3cb9b40c-a842-51c8-9a2a-a7882064a2bf",
+    "name": "Zulu Merchant (Cove: Thief)",
+    "location": [
+      2285,
+      1232,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Thief",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "8611d4ae-fd52-5f8f-b0a3-52e913e48437",
+    "name": "Zulu Merchant (Minoc: AnimalTrainer)",
+    "location": [
+      2521,
+      376,
+      23
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "AnimalTrainer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "9b8a1d8e-af59-558c-8146-e9285d12873b",
+    "name": "Zulu Merchant (Minoc: Barkeeper)",
+    "location": [
+      2462,
+      400,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Barkeeper",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "27c51b0e-f3a6-5f53-bcf9-90b8f1f08e8a",
+    "name": "Zulu Merchant (Minoc: Waiter)",
+    "location": [
+      2471,
+      400,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Waiter",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "82a6496b-bb84-59ec-a100-4dd6e6505568",
+    "name": "Zulu Merchant (Minoc: InnKeeper)",
+    "location": [
+      2483,
+      401,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "InnKeeper",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "00540bea-60e7-517b-b8cc-7d3e7407d3d1",
+    "name": "Zulu Merchant (Minoc: Provisioner)",
+    "location": [
+      2457,
+      428,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Provisioner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "0a313d5b-35c0-57b1-b06a-92ef50527c89",
+    "name": "Zulu Merchant (Minoc: Vagabond)",
+    "location": [
+      2500,
+      385,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Vagabond",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "032be365-eaff-54c1-97ec-00a740fe1d02",
+    "name": "Zulu Merchant (Minoc: Butcher)",
+    "location": [
+      2435,
+      410,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Butcher",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "42f0413d-7f5e-58d4-9b54-b0f103a82d45",
+    "name": "Zulu Merchant (Minoc: Architect)",
+    "location": [
+      2432,
+      437,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Architect",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "20ccc5b2-c8e4-5282-baf8-b4dd80c9ee70",
+    "name": "Zulu Merchant (Minoc: Carpenter)",
+    "location": [
+      2439,
+      437,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Carpenter",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "db3b7fdf-d4f2-5134-bdec-17adfaa6f3f1",
+    "name": "Zulu Merchant (Minoc: Miner)",
+    "location": [
+      2450,
+      428,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Miner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "12caa30f-7d8b-5706-9a34-e763ffae30f4",
+    "name": "Zulu Merchant (Minoc: HairStylist)",
+    "location": [
+      2474,
+      427,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "HairStylist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ca274edc-6db3-5c2a-9702-f800ee187b0f",
+    "name": "Zulu Merchant (Minoc: HairStylist)",
+    "location": [
+      2483,
+      435,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "HairStylist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "48357f8c-1780-525b-81ee-6bd9c9146b8b",
+    "name": "Zulu Merchant (Minoc: Jeweler)",
+    "location": [
+      2507,
+      430,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Jeweler",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ec2fe6a0-6d67-5f2f-bcaa-014c3051b217",
+    "name": "Zulu Merchant (Minoc: Tinker)",
+    "location": [
+      2461,
+      452,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Tinker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "f5b542e2-20c4-5617-8a81-85f3627f3fc7",
+    "name": "Zulu Merchant (Minoc: Tinker)",
+    "location": [
+      2461,
+      461,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Tinker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "33ff36b7-f0d3-5086-a043-5818baff52b2",
+    "name": "Zulu Merchant (Minoc: Jeweler)",
+    "location": [
+      2454,
+      494,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Jeweler",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "59f455ec-b423-5641-adb1-4a326bae8975",
+    "name": "Zulu Merchant (Minoc: Herbalist)",
+    "location": [
+      2462,
+      486,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Herbalist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "047dd58c-61e4-5d5e-b3e9-b58bd95c9868",
+    "name": "Zulu Merchant (Minoc: Cook)",
+    "location": [
+      2445,
+      486,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Cook",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "852d5a97-7999-557f-94c8-bbb98b43153e",
+    "name": "Zulu Merchant (Minoc: Thief)",
+    "location": [
+      2457,
+      475,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Thief",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "2c538c65-2d21-5b0c-80cd-71348746ad91",
+    "name": "Zulu Merchant (Minoc: Tailor)",
+    "location": [
+      2484,
+      474,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Tailor",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ec7c6e35-75d4-5790-aad1-df762a960b1f",
+    "name": "Zulu Merchant (Minoc: Tailor)",
+    "location": [
+      2492,
+      474,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Tailor",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "6ed3e554-afbf-5dc9-90f5-edfd152ddb8e",
+    "name": "Zulu Merchant (Minoc: Carpenter)",
+    "location": [
+      2507,
+      477,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Carpenter",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "1740f3fd-1fd2-5a3b-9b98-52ed3504b410",
+    "name": "Zulu Merchant (Minoc: Carpenter)",
+    "location": [
+      2517,
+      476,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Carpenter",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "404c4979-fbb9-5479-b589-17d9ccfeffc0",
+    "name": "Zulu Merchant (Minoc: Scribe)",
+    "location": [
+      2418,
+      523,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Scribe",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "fad6a766-92d5-5300-b993-38e7b4037d99",
+    "name": "Zulu Merchant (Minoc: Scribe)",
+    "location": [
+      2434,
+      530,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Scribe",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "81df610f-0dbf-5528-ae50-9e392c04d60e",
+    "name": "Zulu Merchant (Minoc: Bard)",
+    "location": [
+      2428,
+      555,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Bard",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "f1eaede2-1142-5b93-8beb-482b365cde40",
+    "name": "Zulu Merchant (Minoc: Blacksmith)",
+    "location": [
+      2475,
+      564,
+      5
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Blacksmith",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "0434b595-b886-53d7-b07f-af65faf1eb34",
+    "name": "Zulu Merchant (Minoc: Blacksmith)",
+    "location": [
+      2468,
+      553,
+      5
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Blacksmith",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "f45f4946-1584-5c0a-8ecf-8eb11a198823",
+    "name": "Zulu Merchant (Minoc: Banker)",
+    "location": [
+      2507,
+      545,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Banker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "b7ea33e1-00c7-5ae0-bb78-6c327207eb34",
+    "name": "Zulu Merchant (Minoc: Banker)",
+    "location": [
+      2507,
+      556,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Banker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "9694db90-6687-57cb-bb39-5857e4e7a37b",
+    "name": "Zulu Merchant (Minoc: Provisioner)",
+    "location": [
+      2496,
+      563,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Provisioner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "2f1e98ce-a0b4-502c-815d-4970651ac00c",
+    "name": "Zulu Merchant (Minoc: LeatherWorker)",
+    "location": [
+      2522,
+      522,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "LeatherWorker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "bd17e4cc-4885-5ac8-af9e-4b4738ebdc0f",
+    "name": "Zulu Merchant (Minoc: LeatherWorker)",
+    "location": [
+      2523,
+      531,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "LeatherWorker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "4cb375c0-46c1-5673-a8b0-8af08a0de019",
+    "name": "Zulu Merchant (Minoc: Provisioner)",
+    "location": [
+      2527,
+      547,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Provisioner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "20abdf1e-3da6-5fb2-b7bf-19d5fe397069",
+    "name": "Zulu Merchant (Minoc: Cobbler)",
+    "location": [
+      2533,
+      551,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Cobbler",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "d5c77dcf-6aee-59ba-a654-1847c8d33be2",
+    "name": "Zulu Merchant (Minoc: Weaponsmith)",
+    "location": [
+      2525,
+      571,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Weaponsmith",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "0f0d9c14-1e77-52e1-bdf2-69d8af393f4f",
+    "name": "Zulu Merchant (Minoc: Armorer)",
+    "location": [
+      2532,
+      574,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Armorer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "826b51f8-ba2f-5b87-a117-26bd20d265f1",
+    "name": "Zulu Merchant (Minoc: Herbalist)",
+    "location": [
+      2572,
+      590,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Herbalist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "2c38eee1-63f0-5a7c-9f16-8f1cf5ebb12b",
+    "name": "Zulu Merchant (Minoc: ZuluHealerpk)",
+    "location": [
+      2581,
+      597,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "ZuluHealerpk",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "3ae154ed-ae7a-5ff2-b2a3-02fcdce7b8cc",
+    "name": "Zulu Merchant (Minoc: Herbalist)",
+    "location": [
+      2593,
+      523,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Herbalist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "8e5f6b4a-d34e-5a48-afe3-4697c83c65d1",
+    "name": "Zulu Merchant (Minoc: Fisherman)",
+    "location": [
+      2589,
+      536,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Fisherman",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "b837f62e-f3d7-5e9f-ab2e-c16b0ca0472f",
+    "name": "Zulu Merchant (Minoc: Blacksmith)",
+    "location": [
+      2564,
+      524,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Blacksmith",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "8d72e3b5-1efc-5a68-ab63-e34ff426dba3",
+    "name": "Zulu Merchant (Minoc: Miner)",
+    "location": [
+      2576,
+      533,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Miner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "a91796fa-3c2a-5afa-82e7-7cea3a4e2a21",
+    "name": "Zulu Merchant (Minoc: HolyMage)",
+    "location": [
+      2582,
+      520,
+      15
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "HolyMage",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "cdd53a8f-8bec-5a35-b825-f820c9d5f46c",
+    "name": "Zulu Merchant (Cove: Banker)",
+    "location": [
+      2227,
+      1197,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Banker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "3857a608-890e-55f4-b4a9-058e96e953dc",
+    "name": "Zulu Merchant (Cove: Mapmaker)",
+    "location": [
+      2235,
+      1186,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Mapmaker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "beee198f-2c78-5b65-8b08-8f3ec4715946",
+    "name": "Zulu Merchant (Cove: Fisherman)",
+    "location": [
+      2256,
+      1168,
+      -2
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Fisherman",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "c71b54e7-ef4f-5851-a3d7-f4909f6723a4",
+    "name": "Zulu Merchant (Cove: Herbalist)",
+    "location": [
+      2243,
+      1202,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Herbalist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "05431213-46ad-542d-ad5f-0e29db24e422",
+    "name": "Zulu Merchant (Cove: Herbalist)",
+    "location": [
+      2241,
+      1229,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Herbalist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "054c4093-5f9f-5b32-9b8e-49593be35055",
+    "name": "Zulu Merchant (Cove: Mage)",
+    "location": [
+      2229,
+      1212,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Mage",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "2920e785-f86b-5a21-be95-c80dcbb09313",
+    "name": "Zulu Merchant (Cove: Alchemist)",
+    "location": [
+      2226,
+      1217,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Alchemist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "82fba472-2bbc-500a-80df-fa85606fc935",
+    "name": "Zulu Merchant (Cove: Provisioner)",
+    "location": [
+      2233,
+      1203,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Provisioner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "712125dd-aa76-5d34-84b5-624750f7cd26",
+    "name": "Zulu Merchant (Cove: Cook)",
+    "location": [
+      2215,
+      1188,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Cook",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "86fdf8b9-d26a-5c13-be6e-99bca66ab9a4",
+    "name": "Zulu Merchant (Cove: Butcher)",
+    "location": [
+      2214,
+      1195,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Butcher",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "64559076-64a8-5a66-a474-3887037d4f9c",
+    "name": "Zulu Merchant (Cove: Weaponsmith)",
+    "location": [
+      2212,
+      1166,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Weaponsmith",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "5c3a7978-f0cc-5737-a285-4f29d2c97f3c",
+    "name": "Zulu Merchant (Cove: LeatherWorker)",
+    "location": [
+      2218,
+      1167,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "LeatherWorker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ebb1e738-c69e-54d1-96d9-4d08e02bfa7a",
+    "name": "Zulu Merchant (Cove: AnimalTrainer)",
+    "location": [
+      2209,
+      1178,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "AnimalTrainer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "98eb9652-8b7a-5b8f-ac5f-1df6971182f3",
+    "name": "Zulu Merchant (Cove: Tailor)",
+    "location": [
+      2211,
+      1115,
+      20
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Tailor",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "7803051e-519c-5a86-b3aa-d595f4fe10cd",
+    "name": "Zulu Merchant (Cove: Cobbler)",
+    "location": [
+      2213,
+      1115,
+      40
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Cobbler",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "2a73a048-b9cb-52a9-83e0-c0a82f3cc01a",
+    "name": "Zulu Merchant (Cove: Farmer)",
+    "location": [
+      2216,
+      1144,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Farmer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "e085f2cf-3c8a-5efd-9e46-8d98dc65c9f2",
+    "name": "Zulu Merchant (Cove: Shipwright)",
+    "location": [
+      2259,
+      1219,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Shipwright",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "dab69e51-2d1b-50be-bb68-43b8cc43085e",
+    "name": "Zulu Merchant (Cove: Thief)",
+    "location": [
+      2285,
+      1232,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Thief",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "9eafb00b-3f8c-5207-9cf5-be5597bd8215",
+    "name": "Zulu Merchant (Vesper: Tailor)",
+    "location": [
+      2962,
+      627,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Tailor",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "f6562d24-d1dc-5071-9e55-c1b79c0af2c1",
+    "name": "Zulu Merchant (Vesper: Tailor)",
+    "location": [
+      2957,
+      620,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Tailor",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "a97a2c41-4a8f-5385-ba9c-599d930cedf9",
+    "name": "Zulu Merchant (Vesper: Provisioner)",
+    "location": [
+      2993,
+      642,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Provisioner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "cae70161-979b-5300-80bd-203a44a759ec",
+    "name": "Zulu Merchant (Vesper: Mapmaker)",
+    "location": [
+      2987,
+      637,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Mapmaker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "f4472be0-8177-5f13-9511-ec7f703ac93d",
+    "name": "Zulu Merchant (Vesper: Alchemist)",
+    "location": [
+      2890,
+      652,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Alchemist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "5906a05e-0d59-5803-9a31-733ee21bc737",
+    "name": "Zulu Merchant (Vesper: Mage)",
+    "location": [
+      2914,
+      666,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Mage",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "9da37493-29c6-5c51-920e-c594eee26a7a",
+    "name": "Zulu Merchant (Vesper: Mage)",
+    "location": [
+      2921,
+      677,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Mage",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "a920118a-bc77-5cad-bb30-31c91b576ebd",
+    "name": "Zulu Merchant (Vesper: Scribe)",
+    "location": [
+      2921,
+      668,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Scribe",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "30dd3b38-cbd2-59b8-9cf9-066bee960542",
+    "name": "Zulu Merchant (Vesper: Alchemist)",
+    "location": [
+      2926,
+      668,
+      20
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Alchemist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "25b31a14-82ff-5519-80aa-4750b1cb8674",
+    "name": "Zulu Merchant (Vesper: Herbalist)",
+    "location": [
+      2919,
+      676,
+      20
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Herbalist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "7d74db83-c456-57f2-a43a-2a63527a487b",
+    "name": "Zulu Merchant (Vesper: Scribe)",
+    "location": [
+      2918,
+      667,
+      20
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Scribe",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "d567b3ce-c67a-53ec-98b6-9dd39b03f1cf",
+    "name": "Zulu Merchant (Vesper: Provisioner)",
+    "location": [
+      2896,
+      670,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Provisioner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "cdab2701-9f62-5584-9eef-916a3ff6b44c",
+    "name": "Zulu Merchant (Cove: Vagabond)",
+    "location": [
+      2274,
+      1204,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Vagabond",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "a5468efc-62c7-5518-8c99-a764773fe940",
+    "name": "Zulu Merchant (Vesper: Banker)",
+    "location": [
+      2886,
+      676,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Banker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "6d986844-3620-50d2-b274-e4f56c92ef74",
+    "name": "Zulu Merchant (Vesper: Scribe)",
+    "location": [
+      2873,
+      683,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Scribe",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "5f669990-203b-5de1-b257-b88cdefe939a",
+    "name": "Zulu Merchant (Vesper: Scribe)",
+    "location": [
+      2875,
+      675,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Scribe",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "e38f893e-e2eb-5653-8bbb-22bfcb6f29e7",
+    "name": "Zulu Merchant (Vesper: Banker)",
+    "location": [
+      2875,
+      691,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Banker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "a1b127c7-b2ce-541a-b01e-785aea1206c9",
+    "name": "Zulu Merchant (Vesper: Banker)",
+    "location": [
+      2883,
+      691,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Banker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "1fc63186-bb5c-5c6f-b000-1e9984e13ceb",
+    "name": "Zulu Merchant (Vesper: Carpenter)",
+    "location": [
+      2907,
+      712,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Carpenter",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "97c852a2-2633-5fef-8e34-11f94b990d3d",
+    "name": "Zulu Merchant (Vesper: Bard)",
+    "location": [
+      2890,
+      742,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Bard",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "9aa71fcb-a307-5965-a6e6-0fa486b486ec",
+    "name": "Zulu Merchant (Vesper: Jeweler)",
+    "location": [
+      2876,
+      722,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Jeweler",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "268c38d0-30ee-5795-8188-c0f7633edbd1",
+    "name": "Zulu Merchant (Vesper: Architect)",
+    "location": [
+      2853,
+      735,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Architect",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "31e17160-9e63-5c34-b590-e1af78420efd",
+    "name": "Zulu Merchant (Vesper: Beekeeper)",
+    "location": [
+      2955,
+      705,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Beekeeper",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "1e72d386-051f-5a84-a1f4-886b7dd893c6",
+    "name": "Zulu Merchant (Vesper: Tinker)",
+    "location": [
+      2898,
+      787,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Tinker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "d4181019-4f28-5599-845d-ab1ef3c98cc6",
+    "name": "Zulu Merchant (Vesper: Carpenter)",
+    "location": [
+      2913,
+      794,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Carpenter",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "7d2e0b52-a6c1-5bfd-a294-50151a589b66",
+    "name": "Zulu Merchant (Vesper: Carpenter)",
+    "location": [
+      2915,
+      803,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Carpenter",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "bac07f82-f9bd-504f-bfee-86270a0b5535",
+    "name": "Zulu Merchant (Vesper: Weaponsmith)",
+    "location": [
+      2836,
+      796,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Weaponsmith",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ad024c98-cb87-5178-9d81-788140bbbf95",
+    "name": "Zulu Merchant (Vesper: Armorer)",
+    "location": [
+      2836,
+      810,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Armorer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ebb93b12-0c41-59d0-a11b-efbfc5feb418",
+    "name": "Zulu Merchant (Vesper: Bowyer)",
+    "location": [
+      2836,
+      810,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Bowyer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "33c2299f-268c-543b-a423-bafcd29d8880",
+    "name": "Zulu Merchant (Vesper: Armorer)",
+    "location": [
+      2867,
+      851,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Armorer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "cb1deaf5-8b46-5f08-a7ea-9005b946e3a9",
+    "name": "Zulu Merchant (Vesper: Tailor)",
+    "location": [
+      2843,
+      883,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Tailor",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "63ece015-9a0a-5064-abb7-7c382cc0c612",
+    "name": "Zulu Merchant (Vesper: Provisioner)",
+    "location": [
+      2836,
+      868,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Provisioner",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "e14c072c-bd3f-56f0-9f61-6409057539bf",
+    "name": "Zulu Merchant (Vesper: Cobbler)",
+    "location": [
+      2858,
+      998,
+      -21
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Cobbler",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "f67266e5-97f8-54b3-9692-a97f6b78781a",
+    "name": "Zulu Merchant (Vesper: HairStylist)",
+    "location": [
+      2835,
+      899,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "HairStylist",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "49a56f3d-8ab3-5baa-a391-a14985473a99",
+    "name": "Zulu Merchant (Vesper: Thief)",
+    "location": [
+      2854,
+      904,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Thief",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ce6577f8-b9aa-55b9-b9c8-780f5db7b998",
+    "name": "Zulu Merchant (Vesper: Vagabond)",
+    "location": [
+      2843,
+      898,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Vagabond",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "69350834-fab6-5e89-bd76-7c749fac64be",
+    "name": "Zulu Merchant (Vesper: ZuluHealerpk)",
+    "location": [
+      2838,
+      916,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "ZuluHealerpk",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "e2e53a0a-5f63-5735-aa83-e6c8ceabd84d",
+    "name": "Zulu Merchant (Vesper: InnKeeper)",
+    "location": [
+      2771,
+      967,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "InnKeeper",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "65c835f1-6b8e-5845-9a08-b62889a9d1d4",
+    "name": "Zulu Merchant (Vesper: Weaponsmith)",
+    "location": [
+      2739,
+      987,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Weaponsmith",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "37ace93e-1ec7-5c94-894d-936d94932fca",
+    "name": "Zulu Merchant (Vesper: Armorer)",
+    "location": [
+      2747,
+      983,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Armorer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "38d69da4-6a25-586b-87c3-3644a8f8a11a",
+    "name": "Zulu Merchant (Vesper: Armorer)",
+    "location": [
+      2747,
+      983,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Armorer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "4ee896c0-8ca7-5419-94b2-abbce6e1dacd",
+    "name": "Zulu Merchant (Vesper: Bowyer)",
+    "location": [
+      2739,
+      978,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Bowyer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "33f02baa-c85d-59c1-8876-593148982a11",
+    "name": "Zulu Merchant (Vesper: LeatherWorker)",
+    "location": [
+      2858,
+      993,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "LeatherWorker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "449e19aa-e639-5f98-aefe-46c8f5f77aad",
+    "name": "Zulu Merchant (Vesper: LeatherWorker)",
+    "location": [
+      2858,
+      1001,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "LeatherWorker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "0c9b59a4-ca2e-5ccc-aaae-f207b8feba4e",
+    "name": "Zulu Merchant (Vesper: LeatherWorker)",
+    "location": [
+      2856,
+      990,
+      -21
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "LeatherWorker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "a88c4b17-60ec-5514-bdea-a7bff7a4fd5d",
+    "name": "Zulu Merchant (Vesper: Barkeeper)",
+    "location": [
+      2896,
+      914,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Barkeeper",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "b9b188bd-ad49-50bf-9606-df1430d9a219",
+    "name": "Zulu Merchant (Vesper: Waiter)",
+    "location": [
+      2899,
+      906,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Waiter",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "5d20a80e-0e1b-53c6-a9ae-b054b23e376c",
+    "name": "Zulu Merchant (Vesper: Waiter)",
+    "location": [
+      2905,
+      914,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Waiter",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "75c66a37-bace-54f2-a9e1-8a53a1f8da00",
+    "name": "Zulu Merchant (Vesper: Farmer)",
+    "location": [
+      2938,
+      939,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Farmer",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "701ea2ff-51ba-5f4f-a3f3-aba00fbf6035",
+    "name": "Zulu Merchant (Vesper: Cook)",
+    "location": [
+      2938,
+      931,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Cook",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "43211339-d70d-577b-9dcf-19c02c38e63e",
+    "name": "Zulu Merchant (Vesper: InnKeeper)",
+    "location": [
+      2971,
+      884,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "InnKeeper",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "47d18324-52c9-50f8-828a-382945d6976c",
+    "name": "Zulu Merchant (Vesper: InnKeeper)",
+    "location": [
+      2914,
+      851,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "InnKeeper",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "37f42c2c-01f2-5e27-bd1f-9e9d995ed996",
+    "name": "Zulu Merchant (Vesper: HolyMage)",
+    "location": [
+      2922,
+      857,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "HolyMage",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "8c4eac9b-5377-58fe-9ef7-5ecd1aa0c7a9",
+    "name": "Zulu Merchant (Vesper: Fisherman)",
+    "location": [
+      2963,
+      818,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Fisherman",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "b326e1ff-fb45-564a-a8a3-ba204afbf045",
+    "name": "Zulu Merchant (Vesper: Mage)",
+    "location": [
+      2993,
+      835,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Mage",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "80e289ae-06f5-5df6-839e-80fb0fd8bb9a",
+    "name": "Zulu Merchant (Vesper: Shipwright)",
+    "location": [
+      2994,
+      811,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Shipwright",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "dcda8ded-93d1-53c8-bd21-f96ba6ec88d7",
+    "name": "Zulu Merchant (Vesper: Fisherman)",
+    "location": [
+      3046,
+      822,
+      -3
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Fisherman",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "6e0be53c-bb38-5e03-b4d5-ca22d1f4ac6c",
+    "name": "Zulu Merchant (Vesper: Fisherman)",
+    "location": [
+      3013,
+      781,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Fisherman",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "7608dfd4-7c48-534f-b7aa-5b23f886f5a6",
+    "name": "Zulu Merchant (Vesper: Cook)",
+    "location": [
+      3018,
+      761,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Cook",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "ae95567f-58a6-5413-a4ce-5efc357c72b9",
+    "name": "Zulu Merchant (Vesper: Butcher)",
+    "location": [
+      2989,
+      779,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Butcher",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  },
+  {
+    "type": "Spawner",
+    "guid": "3fadb1fb-c042-5c3b-8e53-5ce6262091a8",
+    "name": "Zulu Merchant (Vesper: Baker)",
+    "location": [
+      2996,
+      762,
+      0
+    ],
+    "map": "Felucca",
+    "count": 1,
+    "minDelay": "00:10:00",
+    "maxDelay": "00:20:00",
+    "team": 0,
+    "homeRange": 5,
+    "walkingRange": 5,
+    "entries": [
+      {
+        "name": "Baker",
+        "maxCount": 1,
+        "probability": 100
+      }
+    ]
+  }
+]

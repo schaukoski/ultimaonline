@@ -5,7 +5,10 @@ namespace Server.Spells
 {
     public static class SpellRegistry
     {
-        private static readonly Type[] m_Types = new Type[700];
+        #region ##zulu mod — expanded to accommodate Earth Magic spell IDs 750-765
+        // private static readonly Type[] m_Types = new Type[700];
+        private static readonly Type[] m_Types = new Type[800];
+        #endregion
         private static int m_Count;
 
         private static readonly Dictionary<Type, int> m_IDsFromTypes = new(m_Types.Length);

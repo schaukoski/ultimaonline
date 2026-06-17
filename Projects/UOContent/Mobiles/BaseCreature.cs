@@ -4701,6 +4701,9 @@ namespace Server.Mobiles
 
         public void SetDamageType(ResistanceType type, int val)
         {
+            SetZuluDamageType(type, val);
+            return;
+
             switch (type)
             {
                 case ResistanceType.Physical:
@@ -4738,6 +4741,9 @@ namespace Server.Mobiles
 
         public void SetResistance(ResistanceType type, int val)
         {
+            SetZuluResistance(type, val);
+            return;
+
             switch (type)
             {
                 case ResistanceType.Physical:

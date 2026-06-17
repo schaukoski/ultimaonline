@@ -199,7 +199,7 @@ namespace Server.Items
         private void AfterDeserialization()
         {
             // Validate hints array length - regenerate if mismatched
-            if (_hints.Length != HintsCount)
+            if (_hints?.Length != HintsCount)
             {
                 InitHints();
             }
@@ -217,7 +217,7 @@ namespace Server.Items
             {
                 var cylinder = (PuzzleChestCylinder)reader.ReadInt();
 
-                if (length == _hints.Length)
+                if (length == _hints?.Length)
                 {
                     _hints[i] = cylinder;
                 }

@@ -1,3 +1,4 @@
+using ModernUO.Serialization;
 using Server.Gumps;
 using Server.Items;
 using Server.Network;
@@ -7,6 +8,30 @@ using System.Text;
 
 namespace Server;
 
+[SerializationGenerator(0)]
+public partial class WarshardItem : Item
+{
+    [Constructible]
+    public WarshardItem() : base(0x0E3B)
+    {
+        Name = "Warshard Book";
+        Hue = 1153;
+        Weight = 1.0;
+    }
+
+    public override void OnDoubleClick(Mobile from)
+    {
+        base.OnDoubleClick(from);
+        if (!from.InRange(GetWorldLocation(), 2))
+        {
+            from.SendLocalizedMessage(500446); // That is too far away.
+            return;
+        }
+
+        from.SendGump(new WarshardGump(from, 0));
+    }
+}
+
 public class WarshardGump : ZuluGump
 {
     private readonly Mobile m_Mobile;
@@ -15,21 +40,29 @@ public class WarshardGump : ZuluGump
     {
         base.OnResponse(sender, info);
 
-        switch (info.ButtonID)
+        if (info.ButtonID is >= 1 and <= 7)
         {
-            case 1: ZuluClassManager.SetClass(sender.Mobile, new MageClass(), info.Switches[0]); break;
-            case 2: ZuluClassManager.SetClass(sender.Mobile, new WarriorClass(), info.Switches[0]); break;
-            case 3: ZuluClassManager.SetClass(sender.Mobile, new RangerClass(), info.Switches[0]); break;
-            case 4: ZuluClassManager.SetClass(sender.Mobile, new BardClass(), info.Switches[0]); break;
-            case 5: ZuluClassManager.SetClass(sender.Mobile, new CrafterClass(), info.Switches[0]); break;
-            case 6: ZuluClassManager.SetClass(sender.Mobile, new ThiefClass(), info.Switches[0]); break;
-            case 7: ZuluClassManager.SetClass(sender.Mobile, new NecromancerClass(), info.Switches[0]); break;
+            if (info.Switches.Length == 0)
+            {
+                sender.Mobile.SendMessage("You must select a level before choosing a class.");
+                return;
+            }
 
-            default:
-                break;
+            int level = info.Switches[0];
+            switch (info.ButtonID)
+            {
+                case 1: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Mage, level); break;
+                case 2: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Warrior, level); break;
+                case 3: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Ranger, level); break;
+                case 4: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Bard, level); break;
+                case 5: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Crafter, level); break;
+                case 6: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Thief, level); break;
+                case 7: ZuluClassManager.SetClass(sender.Mobile, ZuluClass.Necromancer, level); break;
+            }
+
+            sender.Mobile.isZuluDirty = true;
+            ZuluClassManager.ShowClassMessage(sender.Mobile);
         }
-
-        ZuluClassManager.ShowClassMessage(sender.Mobile);
     }
 
     public WarshardGump(Mobile m, int type) : base(20, 30)
@@ -46,18 +79,20 @@ public class WarshardGump : ZuluGump
         //AddLabelHtml(220, startPageY + 420, 200, 40, "ZuluHotel New Age", "#FFFFFF", 3, true);
         AddButton(startPageX + 10, startPageY - 18, 2093, 2093, 10);
 
+        // ##zulu mod: unified title style — Animal Lore color + geometry
         //AddBackground(startPageX + 75, startPageY - 10, 150, 24, 9300);
-        AddBackground(startPageX + 75, startPageY - 10, 150, 24, 9300);
+        AddBackground(startPageX + 60, startPageY - 10, 180, 26, 9300);
 
         ///9300
         ///9308
-        AddLabelHtml(startPageX+75, startPageY-8, 150, 24, "Warshard", "#363638", 5, true);
+        //AddLabelHtml(startPageX+75, startPageY-8, 150, 24, "Warshard", "#363638", 5, true);
+        AddLabelHtml(startPageX + 60, startPageY - 8, 180, 22, "Warshard", "#4A2E0A", 5, true);
 
         AddLabelHtml(startPageX + 75, startPageY +420, 150, 24, "ZuluHotel New Age", "#363638", 4, true);
 
 
         AddLabelHtml(startPageX + 12, startPageY + 40, 200, 40, "Your Class:", "#F5CD3B", 4, false);
-        AddLabelHtml(startPageX + 92, startPageY + 40, 200, 40, m.ActiveZuluClass.Name, "#FFFFFF", 4, false);
+        AddLabelHtml(startPageX + 92, startPageY + 40, 200, 40, m.ActiveZuluClass.ToString(), "#FFFFFF", 4, false);
 
         AddLabelHtml(startPageX + 180, startPageY + 40, 200, 40, "Level:", "#F5CD3B", 4, false);
         AddLabelHtml(startPageX + 230, startPageY + 40, 200, 40, m.ActiveZuluClassLevel.ToString(), "#FFFFFF", 4, false);

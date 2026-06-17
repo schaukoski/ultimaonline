@@ -1,0 +1,431 @@
+[
+  {
+    "Id": 1,
+    "Name": "Iron",
+    "Category": "Metal",
+    "Hue": 0,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 0.0,
+    "QualityFactor": 1.0,
+    "DurabilityFactor": 1.0,
+    "Mods": []
+  },
+  {
+    "Id": 2,
+    "Name": "Spike",
+    "Category": "Metal",
+    "Hue": 2406,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 5.0,
+    "QualityFactor": 1.05,
+    "DurabilityFactor": 1.05,
+    "Mods": []
+  },
+  {
+    "Id": 3,
+    "Name": "Fruity",
+    "Category": "Metal",
+    "Hue": 1161,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 10.0,
+    "QualityFactor": 1.1,
+    "DurabilityFactor": 1.05,
+    "Mods": []
+  },
+  {
+    "Id": 4,
+    "Name": "Ice Rock",
+    "Category": "Metal",
+    "Hue": 1152,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 15.0,
+    "QualityFactor": 1.1,
+    "DurabilityFactor": 1.1,
+    "Mods": [
+      { "Mod": "WaterProtection", "Factor": 0.20 }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "Black Dwarf",
+    "Category": "Metal",
+    "Hue": 1109,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 20.0,
+    "QualityFactor": 1.15,
+    "DurabilityFactor": 1.1,
+    "Mods": []
+  },
+  {
+    "Id": 6,
+    "Name": "Bronze",
+    "Category": "Metal",
+    "Hue": 2413,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 25.0,
+    "QualityFactor": 1.15,
+    "DurabilityFactor": 1.15,
+    "Mods": []
+  },
+  {
+    "Id": 7,
+    "Name": "Dark Pagan",
+    "Category": "Metal",
+    "Hue": 1175,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 30.0,
+    "QualityFactor": 1.2,
+    "DurabilityFactor": 1.15,
+    "Mods": [
+      { "Mod": "NecroProtection", "Factor": 0.15 }
+    ]
+  },
+  {
+    "Id": 8,
+    "Name": "Silver Rock",
+    "Category": "Metal",
+    "Hue": 2101,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 35.0,
+    "QualityFactor": 1.2,
+    "DurabilityFactor": 1.2,
+    "Mods": []
+  },
+  {
+    "Id": 9,
+    "Name": "Platinum",
+    "Category": "Metal",
+    "Hue": 2107,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 40.0,
+    "QualityFactor": 1.25,
+    "DurabilityFactor": 1.2,
+    "Mods": []
+  },
+  {
+    "Id": 10,
+    "Name": "Dull Copper",
+    "Category": "Metal",
+    "Hue": 2419,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 45.0,
+    "QualityFactor": 1.25,
+    "DurabilityFactor": 1.25,
+    "Mods": []
+  },
+  {
+    "Id": 11,
+    "Name": "Mystic",
+    "Category": "Metal",
+    "Hue": 1153,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 50.0,
+    "QualityFactor": 1.3,
+    "DurabilityFactor": 1.25,
+    "Mods": [
+      { "Mod": "SpellAmplifier", "Factor": 0.10 }
+    ]
+  },
+  {
+    "Id": 12,
+    "Name": "Copper",
+    "Category": "Metal",
+    "Hue": 2415,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 55.0,
+    "QualityFactor": 1.3,
+    "DurabilityFactor": 1.3,
+    "Mods": []
+  },
+  {
+    "Id": 13,
+    "Name": "Spectral",
+    "Category": "Metal",
+    "Hue": 1150,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 60.0,
+    "QualityFactor": 1.35,
+    "DurabilityFactor": 1.3,
+    "Mods": []
+  },
+  {
+    "Id": 14,
+    "Name": "Onyx",
+    "Category": "Metal",
+    "Hue": 1109,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 65.0,
+    "QualityFactor": 1.35,
+    "DurabilityFactor": 1.35,
+    "Mods": []
+  },
+  {
+    "Id": 15,
+    "Name": "Old Britain",
+    "Category": "Metal",
+    "Hue": 2418,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 70.0,
+    "QualityFactor": 1.4,
+    "DurabilityFactor": 1.35,
+    "Mods": []
+  },
+  {
+    "Id": 16,
+    "Name": "Red Elven",
+    "Category": "Metal",
+    "Hue": 1157,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 75.0,
+    "QualityFactor": 1.4,
+    "DurabilityFactor": 1.4,
+    "Mods": []
+  },
+  {
+    "Id": 17,
+    "Name": "Undead",
+    "Category": "Metal",
+    "Hue": 2406,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 80.0,
+    "QualityFactor": 1.45,
+    "DurabilityFactor": 1.4,
+    "Mods": [
+      { "Mod": "NecroProtection", "Factor": 0.20 }
+    ]
+  },
+  {
+    "Id": 18,
+    "Name": "Pyrite",
+    "Category": "Metal",
+    "Hue": 2213,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 82.0,
+    "QualityFactor": 1.45,
+    "DurabilityFactor": 1.45,
+    "Mods": []
+  },
+  {
+    "Id": 19,
+    "Name": "Virginity",
+    "Category": "Metal",
+    "Hue": 1153,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 85.0,
+    "QualityFactor": 1.5,
+    "DurabilityFactor": 1.45,
+    "Mods": []
+  },
+  {
+    "Id": 20,
+    "Name": "Malachite",
+    "Category": "Metal",
+    "Hue": 1154,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 88.0,
+    "QualityFactor": 1.5,
+    "DurabilityFactor": 1.5,
+    "Mods": []
+  },
+  {
+    "Id": 21,
+    "Name": "Lava Rock",
+    "Category": "Metal",
+    "Hue": 1158,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 90.0,
+    "QualityFactor": 1.55,
+    "DurabilityFactor": 1.5,
+    "Mods": [
+      { "Mod": "FireProtection", "Factor": 0.32 },
+      { "Mod": "FireAmplifier", "Factor": 0.13 }
+    ]
+  },
+  {
+    "Id": 22,
+    "Name": "Azurite",
+    "Category": "Metal",
+    "Hue": 102,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 92.0,
+    "QualityFactor": 1.55,
+    "DurabilityFactor": 1.55,
+    "Mods": [
+      { "Mod": "WaterAmplifier", "Factor": 0.10 }
+    ]
+  },
+  {
+    "Id": 23,
+    "Name": "Dripstone",
+    "Category": "Metal",
+    "Hue": 1167,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 95.0,
+    "QualityFactor": 1.6,
+    "DurabilityFactor": 1.55,
+    "Mods": []
+  },
+  {
+    "Id": 24,
+    "Name": "Executor",
+    "Category": "Metal",
+    "Hue": 1175,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 98.0,
+    "QualityFactor": 1.6,
+    "DurabilityFactor": 1.6,
+    "Mods": []
+  },
+  {
+    "Id": 25,
+    "Name": "Peachblue",
+    "Category": "Metal",
+    "Hue": 1163,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 100.0,
+    "QualityFactor": 1.65,
+    "DurabilityFactor": 1.6,
+    "Mods": []
+  },
+  {
+    "Id": 26,
+    "Name": "Destruction",
+    "Category": "Metal",
+    "Hue": 1281,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 105.0,
+    "QualityFactor": 1.7,
+    "DurabilityFactor": 1.65,
+    "Mods": [
+      { "Mod": "PhysicalDamageAmp", "Factor": 0.15 }
+    ]
+  },
+  {
+    "Id": 27,
+    "Name": "Anra",
+    "Category": "Metal",
+    "Hue": 2425,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 108.0,
+    "QualityFactor": 1.7,
+    "DurabilityFactor": 1.7,
+    "Mods": []
+  },
+  {
+    "Id": 28,
+    "Name": "Crystal",
+    "Category": "Metal",
+    "Hue": 1153,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 110.0,
+    "QualityFactor": 1.8,
+    "DurabilityFactor": 1.75,
+    "Mods": []
+  },
+  {
+    "Id": 29,
+    "Name": "Doom",
+    "Category": "Metal",
+    "Hue": 1109,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 115.0,
+    "QualityFactor": 1.9,
+    "DurabilityFactor": 1.8,
+    "Mods": [
+      { "Mod": "NecroProtection", "Factor": 0.30 },
+      { "Mod": "NecroAmplifier", "Factor": 0.15 }
+    ]
+  },
+  {
+    "Id": 30,
+    "Name": "Goddess",
+    "Category": "Metal",
+    "Hue": 1156,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 118.0,
+    "QualityFactor": 1.95,
+    "DurabilityFactor": 1.85,
+    "Mods": [
+      { "Mod": "HollyProtection", "Factor": 0.25 },
+      { "Mod": "HollyAmplifier", "Factor": 0.12 }
+    ]
+  },
+  {
+    "Id": 31,
+    "Name": "New Zulu",
+    "Category": "Metal",
+    "Hue": 1359,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 120.0,
+    "QualityFactor": 2.0,
+    "DurabilityFactor": 1.9,
+    "Mods": []
+  },
+  {
+    "Id": 32,
+    "Name": "Ebon Twilight Sapphire",
+    "Category": "Metal",
+    "Hue": 1175,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 123.0,
+    "QualityFactor": 2.1,
+    "DurabilityFactor": 2.0,
+    "Mods": []
+  },
+  {
+    "Id": 33,
+    "Name": "Dark Sable Ruby",
+    "Category": "Metal",
+    "Hue": 1281,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 126.0,
+    "QualityFactor": 2.2,
+    "DurabilityFactor": 2.1,
+    "Mods": []
+  },
+  {
+    "Id": 34,
+    "Name": "Radiant Nimbus Diamond",
+    "Category": "Metal",
+    "Hue": 1153,
+    "OreItemId": 7039,
+    "IngotItemId": 7154,
+    "Difficulty": 130.0,
+    "QualityFactor": 2.5,
+    "DurabilityFactor": 2.25,
+    "Mods": []
+  }
+]
