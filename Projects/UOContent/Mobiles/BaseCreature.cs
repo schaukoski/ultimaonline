@@ -803,9 +803,10 @@ namespace Server.Mobiles
             get => m_ControlOrder;
             set
             {
+                var previous = m_ControlOrder;
                 m_ControlOrder = value;
 
-                AIObject?.OnCurrentOrderChanged();
+                AIObject?.OnCurrentOrderChanged(previous);
 
                 InvalidateProperties();
 
@@ -1478,6 +1479,10 @@ namespace Server.Mobiles
         {
             var oldHits = Hits;
 
+            // Blood oath reflects the original damage the attacker dealt, before other modifiers.
+            var hasBloodOath = from != null && BloodOathSpell.GetBloodOath(from) == this;
+            var reflectedDamage = hasBloodOath ? amount : 0;
+
             if (Core.AOS && !Summoned && Controlled && Utility.RandomDouble() < 0.2)
             {
                 amount = (int)(amount * BonusPetDamageScalar);
@@ -1488,13 +1493,23 @@ namespace Server.Mobiles
                 amount = (int)(amount * 1.25);
             }
 
-            if (from != null && BloodOathSpell.GetBloodOath(from) == this)
+            if (hasBloodOath)
             {
-                amount = (int)(amount * 1.1);
-                from.Damage(amount, from);
+                amount = (int)(amount * 1.2);
             }
 
             base.Damage(amount, from, informMount);
+
+            // If the blood oath caster will die then damage is not reflected back to the attacker.
+            if (hasBloodOath && Alive && !Deleted && !IsDeadBondedPet)
+            {
+                // Reflect the original damage back to the attacker, attributed to the caster.
+                // The caster is a creature, so the Publish 48 (SA+) resist mitigation applies.
+                from.Damage(
+                    BloodOathSpell.ComputeReflectedDamage(reflectedDamage, from.Skills.MagicResist.Value, Core.SA),
+                    this
+                );
+            }
 
             if (SubdueBeforeTame && !Controlled && oldHits > HitsMax / 10 && Hits <= HitsMax / 10)
             {
@@ -2245,7 +2260,7 @@ namespace Server.Mobiles
 
         public void ChangeAIType(AIType newAI)
         {
-            AIObject?._timer.Stop();
+            AIObject?.AITimer.Stop();
 
             if (ForcedAI != null)
             {
@@ -2368,7 +2383,7 @@ namespace Server.Mobiles
         {
             if (AIObject != null)
             {
-                AIObject._timer?.Stop();
+                AIObject.AITimer?.Stop();
                 AIObject = null;
             }
 
@@ -3286,19 +3301,12 @@ namespace Server.Mobiles
 
             if (!Summoned && !NoKillAwards)
             {
-                var totalFame = Fame / 100;
-                var totalKarma = -Karma / 100;
-
-                if (Map == Map.Felucca)
-                {
-                    totalFame += totalFame / 10 * 3;
-                    totalKarma += totalKarma / 10 * 3;
-                }
+                var (totalFame, totalKarma) = Titles.ComputeKillAwards(this, Map);
 
                 var list = GetLootingRights(DamageEntries, HitsMax);
-                var titles = new List<Mobile>();
-                var fame = new List<int>();
-                var karma = new List<int>();
+                using var titles = PooledRefList<Mobile>.Create();
+                var fame = PooledRefList<int>.Create();
+                var karma = PooledRefList<int>.Create();
 
                 var givenQuestKill = false;
                 var givenFactionKill = false;
@@ -3313,9 +3321,19 @@ namespace Server.Mobiles
                         continue;
                     }
 
-                    var party = Engines.PartySystem.Party.Get(ds.m_Mobile);
+                    if (!Core.UOR)
+                    {
+                        var killer = LastKiller is BaseCreature bc ? bc.GetDamageMaster(this) : LastKiller;
 
-                    if (party != null)
+                        if (ds.m_Mobile == killer)
+                        {
+                            // If the titles system gets feature flagged, it will be supported
+                            titles.Add(ds.m_Mobile);
+                            fame.Add(totalFame);
+                            karma.Add(totalKarma);
+                        }
+                    }
+                    else if (Engines.PartySystem.Party.Get(ds.m_Mobile) is { } party)
                     {
                         var divedFame = totalFame / party.Members.Count;
                         var divedKarma = totalKarma / party.Members.Count;
@@ -3393,6 +3411,9 @@ namespace Server.Mobiles
                     Titles.AwardFame(titles[i], fame[i], true);
                     Titles.AwardKarma(titles[i], karma[i], true);
                 }
+
+                fame.Dispose();
+                karma.Dispose();
             }
 
             base.OnDeath(c);
@@ -3863,6 +3884,8 @@ namespace Server.Mobiles
 
             OnAfterResurrect();
 
+            AIObject?.Activate();
+
             var owner = ControlMaster;
 
             if (owner?.Deleted == false && owner.Map == Map && owner.InRange(this, 12) && CanSee(owner) && InLOS(owner))
@@ -3914,7 +3937,7 @@ namespace Server.Mobiles
             {
                 SetLocation(Home, true);
 
-                if (!Map.GetSector(X, Y).Active)
+                if (PlayerRangeSensitive && !Map.GetSector(X, Y).Active)
                 {
                     AIObject?.Deactivate();
                 }
