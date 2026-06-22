@@ -27,6 +27,6 @@
         <ProjectReference Include="..\UOContent\UOContent.csproj" Private="false" PrivateAssets="All" IncludeAssets="None">
             <IncludeInPackage>false</IncludeInPackage>
         </ProjectReference>
-        <PackageReference Include="MailKit" Version="4.15.2" />
+        <PackageReference Include="MailKit" Version="4.17.0" />
     </ItemGroup>
 </Project>

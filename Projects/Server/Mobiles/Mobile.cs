@@ -2317,7 +2317,13 @@ public partial class Mobile : IHued, IComparable<Mobile>, ISpawnable, IObjectPro
     {
         writer.Write(39); // version
 
-        writer.Write(38); // version
+        #region ##zulu mod
+        // BUG (merge artifact): the v38->v39 bump left the old version write in place,
+        // so Serialize wrote TWO version ints while Deserialize reads only one. That
+        // shifted every following field by 4 bytes and corrupted mobile saves
+        // (e.g. "Fallen Angel"). The version is already written above as 39.
+        // writer.Write(38); // version
+        #endregion
 
         writer.Write(z_Air_DD);
         writer.Write(z_Earth_DD);
